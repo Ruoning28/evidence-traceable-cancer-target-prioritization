@@ -1,0 +1,67 @@
+﻿tcga_paad:
+  source: "GDC API"
+  project_id: "TCGA-PAAD"
+  url: "https://api.gdc.cancer.gov"
+  data_layers:
+    - clinical
+    - RNA STAR counts
+    - masked somatic mutation manifest
+    - copy number segment manifest
+
+depmap:
+  source: "DepMap Portal API"
+  file_listing_url: "https://depmap.org/portal/api/download/files"
+  release_policy: "latest public release from file listing"
+  core_files:
+    - "Model.csv"
+    - "CRISPRGeneEffect.csv"
+    - "CRISPRGeneDependency.csv"
+    - "AchillesCommonEssentialControls.csv"
+    - "OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv"
+
+cptac_pdac_linkedomics:
+  source: "LinkedOmics CPTAC-PDAC"
+  base_url: "https://linkedomics.org/data_download/CPTAC-PDAC/"
+  note: "Used as an accessible CPTAC-PDAC proteomics mirror for first-pass feasibility."
+
+manual_or_later_sources:
+  drugbank: "Manual licensed file expected if available."
+
+opentargets:
+  source: "Open Targets Platform GraphQL API"
+  url: "https://api.platform.opentargets.org/api/v4/graphql"
+  disease_ids:
+    - "MONDO_0005184"
+    - "EFO_1000044"
+    - "EFO_0002618"
+
+chembl:
+  source: "ChEMBL latest FTP"
+  sqlite_url: "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl_37_sqlite.tar.gz"
+
+dgidb:
+  source: "DGIdb latest public TSV downloads"
+  base_url: "https://dgidb.org/data/latest/"
+
+gtex:
+  source: "GTEx Portal adult v10 public Google Cloud bucket"
+  median_tpm_url: "https://storage.googleapis.com/adult-gtex/bulk-gex/v10/rna-seq/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.gct.gz"
+
+hpa:
+  source: "Human Protein Atlas downloads"
+  version_note: "HPA public download endpoint; current page reported v25.1 when checked."
+
+gnomad:
+  source: "gnomAD public Google Cloud bucket"
+  constraint_url: "https://storage.googleapis.com/gcp-public-data--gnomad/release/4.1.1/constraint/gnomad.v4.1.1.constraint_metrics.tsv.bgz"
+
+external_geo:
+  source: "NCBI GEO FTP series matrices"
+  series:
+    - "GSE62452"
+    - "GSE15471"
+    - "GSE16515"
+    - "GSE28735"
+    - "GSE62165"
+    - "GSE71729"
+

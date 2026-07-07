@@ -1,0 +1,16 @@
+﻿cancer,evidence_block,coverage
+PDAC,Patient molecular,0.6750511197063388
+PDAC,Protein-level,0.6409548914784066
+PDAC,Functional genomics,0.4565297726096918
+PDAC,Drug knowledge,0.38843586016604664
+PDAC,Tractability,0.5128476755931117
+PDAC,Safety proxy,1.0
+PDAC,External reproducibility,0.33344830134758935
+LUAD,Patient molecular,0.7274367213484413
+LUAD,Protein-level,0.6018941315744969
+LUAD,Functional genomics,0.5195896048255256
+LUAD,Drug knowledge,0.3018490332036755
+LUAD,Tractability,0.44419076610857433
+LUAD,Safety proxy,1.0
+LUAD,External reproducibility,0.6335475505947348
+

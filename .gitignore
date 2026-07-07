@@ -1,0 +1,69 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Temporary files
+tmp/
+temp/
+cache/
+*.tmp
+*.bak
+
+# Raw and large data
+data/raw/
+raw_data/
+downloaded_data/
+intermediate/
+results/tmp/
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.joblib
+*.rds
+
+# Sensitive files
+.env
+*.key
+*.pem
+*token*
+*secret*
+*password*
+*credential*
+

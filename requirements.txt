@@ -1,0 +1,9 @@
+﻿matplotlib
+numpy
+pandas
+pyyaml
+requests
+scikit-learn
+scipy
+tqdm
+urllib3

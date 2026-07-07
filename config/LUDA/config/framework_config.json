@@ -1,0 +1,106 @@
+﻿{
+  "cancer_code": "LUAD",
+  "input_tables": {
+    "base_dir": "LUDA/data/processed",
+    "evidence_matrix": "luad_target_evidence_matrix.tsv",
+    "label_sources": "ml_label_sources.tsv",
+    "positive_sets": "ml_positive_sets.tsv"
+  },
+  "random_seeds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+  "features": [
+    "patient_alteration_score",
+    "proteomic_support_score",
+    "external_reproducibility_score",
+    "dependency_score",
+    "chemical_modulation_score",
+    "clinical_precedence_score",
+    "target_tractability_score",
+    "druggability_score",
+    "safety_risk_score",
+    "safety_factor",
+    "tcga_gtex_expression_score",
+    "tcga_mutation_score",
+    "tcga_cnv_score",
+    "tcga_survival_score",
+    "cptac_mrna_score",
+    "cptac_protein_score",
+    "phosphoproteomic_support_score",
+    "geo_external_reproducibility_score",
+    "opentargets_overall_score"
+  ],
+  "missing_indicator_features": [
+    "cptac_protein_score",
+    "phosphoproteomic_support_score",
+    "geo_external_reproducibility_score",
+    "opentargets_overall_score"
+  ],
+  "background_sampling": {
+    "n_repeats": 30,
+    "background_ratio": 8,
+    "matched_background": true
+  },
+  "model": {
+    "type": "elastic_net_logistic",
+    "solver": "saga",
+    "max_iter": 10000,
+    "C": 1.0,
+    "l1_ratio": 0.5
+  },
+  "validation": {
+    "top_k": [20, 50, 100, 200],
+    "leave_source_out_repeats": 30,
+    "n_permutations": 500,
+    "permutation_repeats": 30
+  },
+  "evaluation": {
+    "benchmark_gene_embargo": true,
+    "axes": {
+      "translational": {
+        "development_sources": ["luad_actionable_anchor"],
+        "benchmark_sources": ["luad_actionable_anchor", "expanded_literature:LUAD_translational"],
+        "development_genes": ["EGFR", "ALK", "ROS1", "BRAF", "MET", "RET"],
+        "benchmark_genes": ["ERBB2", "ERBB3", "KRAS", "NRG1", "NTRK1", "NTRK2", "NTRK3"],
+        "feature_exclusions": ["chemical_modulation_score", "clinical_precedence_score", "opentargets_overall_score", "safety_factor"],
+        "oof_strategy": "leave_one_positive_out"
+      },
+      "functional": {
+        "development_sources": ["tcga_luad_nature_2014", "depmap_luad_high_dependency"],
+        "benchmark_sources": ["tcga_luad_nature_2014", "depmap_luad_high_dependency", "expanded_literature:LUAD_functional"],
+        "development_genes": ["ALK", "BRAF", "ERBB2", "KRAS", "MET", "NRAS", "NTRK1", "RBM10", "RIT1", "SMARCA4", "TP53", "CDC27", "DCAF13", "HSPE1", "PCNA", "PRELID1", "PSMA3", "PUF60", "RPL12", "RPL17", "RPL23", "RPL4", "RPS3A", "RRM1", "SMU1", "SNRPD3"],
+        "benchmark_genes": ["ARID1A", "ASF1A", "ATM", "BACE1", "CSNK1A1", "DCAF1", "DNA2", "EGFR", "KDM2A", "KEAP1", "LRR1", "LTB4R2", "MAP2K1", "MAP2K2", "NF1", "NRG1", "PARP1", "PHF5A", "PIK3CA", "PRIM2", "PSMB3", "RAN", "RB1", "RET", "RIC8A", "ROS1", "RPL15", "RPL21", "RPL34", "RPS19", "RPSA", "SARS1", "SNRPA1", "SNRPF", "STK11", "U2AF1"],
+        "feature_exclusions": ["chemical_modulation_score", "clinical_precedence_score", "opentargets_overall_score", "patient_alteration_score", "dependency_score", "external_reproducibility_score", "tcga_gtex_expression_score", "tcga_mutation_score", "tcga_cnv_score", "tcga_survival_score", "safety_factor"],
+        "oof_strategy": "source_stratified_5fold"
+      }
+    },
+    "source_feature_exclusions": {
+      "luad_actionable_anchor": ["chemical_modulation_score", "clinical_precedence_score", "opentargets_overall_score"],
+      "tcga_luad_nature_2014": ["patient_alteration_score", "tcga_gtex_expression_score", "tcga_mutation_score", "tcga_cnv_score", "tcga_survival_score"],
+      "depmap_luad_high_dependency": ["dependency_score", "external_reproducibility_score"]
+    }
+  },
+  "sensitivity": {
+    "n_repeats": 10,
+    "l1_ratio_values": [0.1, 0.5, 0.9],
+    "C_values": [0.3, 1.0, 3.0],
+    "background_ratio_values": [4, 8, 12],
+    "matched_background_values": [false, true],
+    "triage_high_score_percentile_values": [0.01, 0.02, 0.05],
+    "triage_safety_factor_min_values": [0.3, 0.4, 0.5]
+  },
+  "review": {
+    "high_score_percentile": 0.02,
+    "dependency_top_percentile": 0.10,
+    "disease_top_percentile": 0.10,
+    "safety_factor_min": 0.4,
+    "safety_risk_high_threshold": 0.75,
+    "allow_strong_translational_evidence_without_dependency": true,
+    "clinical_precedence_override_min": 0.6,
+    "opentargets_override_min": 0.5,
+    "limited_actionability_before_functional_class": true,
+    "limited_actionability_druggability_max": 0.15
+  }
+}
+
+

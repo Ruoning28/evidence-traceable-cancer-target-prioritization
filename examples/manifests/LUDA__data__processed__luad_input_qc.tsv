@@ -1,0 +1,10 @@
+﻿item	value	note
+candidate_universe_hgnc_like	35478	derived from legacy processed public-gene universe after HGNC-like symbol filter
+cbioportal_genes_with_any_patient_data	26683	TCGA LUAD PanCancer Atlas cBioPortal DataHub
+depmap_luad_models	91	DepMap Model.csv OncotreeCode == LUAD
+clinical_positive_genes	11	manual LUAD actionable anchors intersected with universe
+discovery_positive_genes	52	TCGA LUAD driver anchors plus local DepMap LUAD top dependencies
+cptac_luad_feature_genes	19333	LinkedOmics CPTAC-LUAD deep proteomics/RNA/mutation-derived features
+mutation_table_status	1	cBioPortal mutation table unresolved; CPTAC-LUAD somatic mutation gene table used when available
+opentargets_status	1	Open Targets EFO_0000571 lung adenocarcinoma associated targets
+

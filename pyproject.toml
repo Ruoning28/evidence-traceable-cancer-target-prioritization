@@ -1,0 +1,30 @@
+﻿[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-traceable-cancer-target-prioritization"
+version = "1.0.0"
+description = "Analysis code for an evidence-traceable framework for cancer therapeutic target assessment and prioritization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Ruoning Li"},
+  {name = "Wei Lan"}
+]
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pyyaml",
+  "requests",
+  "scikit-learn",
+  "scipy",
+  "tqdm",
+  "urllib3"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["framework*", "PDAC*", "LUDA*"]

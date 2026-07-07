@@ -1,0 +1,79 @@
+﻿gene_symbol	source	source_group	label_type	priority_axis	is_positive	is_validation_source	notes
+EGFR	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable anchor
+ALK	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable fusion anchor
+ROS1	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable fusion anchor
+RET	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable fusion anchor
+MET	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD exon14/amplification anchor
+ERBB2	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD HER2 anchor
+BRAF	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable anchor
+KRAS	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA-approved KRAS G12C LUAD anchor
+NTRK1	luad_actionable_anchor	drug	known_target	clinical	1	1	tumour-agnostic actionable fusion anchor
+NTRK2	luad_actionable_anchor	drug	known_target	clinical	1	1	tumour-agnostic actionable fusion anchor
+NTRK3	luad_actionable_anchor	drug	known_target	clinical	1	1	tumour-agnostic actionable fusion anchor
+PIK3CA	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+BRAF	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+EGFR	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+STK11	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+KEAP1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+ARID1A	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+SMARCA4	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+RIT1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+KRAS	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+NRAS	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+ALK	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+NF1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+U2AF1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+TP53	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+NTRK1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+ROS1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+MET	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+RET	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+MAP2K1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+RBM10	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+ERBB2	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+NRG1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552
+PUF60	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+SNRPF	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+SNRPD3	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL15	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL4	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPS3A	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RRM1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+PSMB3	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+PRIM2	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+DNA2	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RAN	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPSA	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+PCNA	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+LRR1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+SARS1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+CDC27	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+PSMA3	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL23	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL21	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPS19	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+HSPE1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+SNRPA1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+DCAF1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL34	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+SMU1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL12	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+PHF5A	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+RPL17	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+PRELID1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+DCAF13	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score
+ASF1A	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; in vivo CRISPR immunotherapy target from PMID31744829
+RIC8A	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; EGFR TKI CRISPR modifier from PMID31741433
+CSNK1A1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; druggable vulnerability from PMID34298691
+KDM2A	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; druggable vulnerability from PMID34298691
+LTB4R2	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; druggable vulnerability from PMID34298691
+ATM	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; ATM/MEK synthetic-lethal context from PMID27922010
+MAP2K1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; MEK1 target in ATM-loss synthetic lethality from PMID27922010
+MAP2K2	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; MEK2 target in ATM-loss synthetic lethality from PMID27922010
+RB1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; RB1/PARP inhibitor response context from PMID37937640
+PARP1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; PARP inhibitor target from PMID37937640
+BACE1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; in vivo CRISPRa therapeutic vulnerability from PMID40601773
+NRG1	expanded_literature:LUAD_translational	literature	expanded_literature	clinical	1	1	LUAD benchmark expansion; NRG1 fusion clinical selection target from PMID39908431
+ERBB2	expanded_literature:LUAD_translational	literature	expanded_literature	clinical	1	1	LUAD benchmark expansion; zenocutuzumab HER2 target from PMID39908431
+ERBB3	expanded_literature:LUAD_translational	literature	expanded_literature	clinical	1	1	LUAD benchmark expansion; zenocutuzumab HER3 target from PMID39908431
+

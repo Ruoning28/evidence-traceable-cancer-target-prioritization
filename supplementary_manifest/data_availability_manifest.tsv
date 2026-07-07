@@ -1,0 +1,8 @@
+﻿file_or_resource	description	source_type	availability	repository_or_supplement	notes
+Processed evidence matrices	Cancer-specific target-by-evidence matrices used for prioritization	Processed data	Not stored in GitHub; provided as manuscript supplementary files or associated public repository	Additional file / public repository	Excluded from GitHub to avoid storing large analysis matrices.
+Label and benchmark manifests	Positive-label definitions and held-out benchmark records	Processed manifest	Provided with manuscript supplementary files or associated public repository	Additional file / public repository	Small examples may appear in examples/manifests.
+Source-trace files	Per-record source role and traceability files	Processed manifest	Provided with manuscript supplementary files or associated public repository	Additional file / public repository	Used to audit feature/label/validation separation.
+Validation summaries	Permutation, held-out, OOF and source-out validation tables	Analysis output	Provided with manuscript supplementary files or associated public repository	Additional file / public repository	Excluded from GitHub except small figure source summaries.
+Figure source data	Small source tables used for paper figures	Figure source data	Included when small and non-sensitive	figures/source	Final full-resolution figure files are submission artifacts, not primary repository data.
+Raw public databases	Public data sources cited in manuscript	Raw public source	Available from original providers	Original public databases	Download scripts are included where available.
+

@@ -1,0 +1,56 @@
+﻿gene_symbol	clinical_positive	discovery_positive	positive_source_count	clinical_sources	discovery_sources	heldout_eligible_sources
+ALK	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+ARID1A	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+BRAF	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+CDC27	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+DCAF1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+DCAF13	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+DNA2	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+EGFR	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+ERBB2	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+HSPE1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+KEAP1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+KRAS	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+LRR1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+MAP2K1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+MET	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+NF1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+NRAS	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+NRG1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+NTRK1	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+NTRK2	1	0	1	luad_actionable_anchor		luad_actionable_anchor
+NTRK3	1	0	1	luad_actionable_anchor		luad_actionable_anchor
+PCNA	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PHF5A	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PIK3CA	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+PRELID1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PRIM2	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PSMA3	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PSMB3	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PUF60	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RAN	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RBM10	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+RET	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+RIT1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+ROS1	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+RPL12	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL15	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL17	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL21	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL23	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL34	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL4	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPS19	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPS3A	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPSA	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RRM1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SARS1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SMARCA4	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+SMU1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SNRPA1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SNRPD3	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SNRPF	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+STK11	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+TP53	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+U2AF1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+

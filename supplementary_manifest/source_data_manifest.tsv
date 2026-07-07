@@ -1,0 +1,9 @@
+﻿source_name	source_role	cancer_context	citation_or_doi	used_for	notes
+Patient molecular evidence	F/A	PDAC; LUAD	See manuscript references	Feature construction and evidence review	Public molecular resources harmonized into target-level evidence.
+Protein-level evidence	F/A	PDAC; LUAD	See manuscript references	Feature construction and evidence review	Includes protein/proteomic support where available.
+Functional genomics/dependency evidence	F/L/V/A	PDAC; LUAD	See manuscript references	Feature construction, labels, validation, and review according to source-role split	Roles are assigned before model fitting to reduce leakage.
+Drug knowledge/actionability evidence	F/L/A	PDAC; LUAD	See manuscript references	Feature construction, label support, and post-model review	Used according to prespecified role controls.
+Safety proxy evidence	F/A	PDAC; LUAD	See manuscript references	Feature construction and review	Includes safety-acceptability and safety-risk representations.
+External reproducibility evidence	F/V/A	PDAC; LUAD	See manuscript references	Feature construction, held-out validation, and review	Cancer-specific source roles follow manuscript table and supplementary split rationale.
+Open Targets and public literature benchmarks	V/A	PDAC; LUAD	See manuscript references	Held-out benchmarks, annotation, and source tracing	Benchmark targets are excluded from same-axis development labels.
+

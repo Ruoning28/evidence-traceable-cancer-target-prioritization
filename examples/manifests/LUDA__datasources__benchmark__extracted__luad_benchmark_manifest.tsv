@@ -1,0 +1,5 @@
+﻿source	pmid	citation_hint	role	genes
+tcga_luad_nature_2014	25079552	Comprehensive molecular profiling of lung adenocarcinoma, Nature 2014	driver/discovery benchmark	ALK,ARID1A,BRAF,EGFR,ERBB2,KEAP1,KRAS,MAP2K1,MET,NF1,NRAS,NRG1,NTRK1,PIK3CA,RBM10,RET,RIT1,ROS1,SMARCA4,STK11,TP53,U2AF1
+cptac_luad_cell_2020	32649874	Proteogenomic characterization of human lung adenocarcinoma, Cell 2020	proteogenomic context benchmark	EGFR,KRAS,STK11,KEAP1,TP53,BRAF,MET,ERBB2,ALK,ROS1,RET
+depmap_cancer_dependencies_nature_2019	30971826	Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens, Nature 2019	functional dependency benchmark	derived_from_local_DepMap_LUAD_top_dependencies
+
