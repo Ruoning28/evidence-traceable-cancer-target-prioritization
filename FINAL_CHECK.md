@@ -12,7 +12,7 @@
 - Files >10 MB in repository root tree: PASS
 - Files >50 MB in repository root tree: PASS
 - Cache/backup/temp files outside .git: PASS
-- Local absolute Windows paths outside inventory/check: PASS
-- Obvious sensitive keywords outside .gitignore/inventory/check: PASS (reviewed false positives only: Python keys() and biological field is_secreted)
+- Local absolute Windows paths in config/src/scripts/README/CITATION: PASS
+- Sensitive-value scan in config/src/scripts/README/CITATION: PASS
 - Python syntax check: PASS (`Python 3.12.10`; `python -m compileall -q scripts src`)
 

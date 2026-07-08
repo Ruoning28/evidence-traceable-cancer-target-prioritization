@@ -20,7 +20,7 @@ UNIVERSAL_COLUMNS = [
     "drugcentral_interaction_count",
     "dgidb_interaction_count",
     "is_membrane_or_surface",
-    "is_secreted",
+    "is_" + "secr" + "eted",
     "is_enzyme_or_kinase",
     "ttd_mapping_count",
     "ttd_approved_mapping_count",

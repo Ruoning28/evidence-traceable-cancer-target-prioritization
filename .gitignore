@@ -66,4 +66,7 @@ results/tmp/
 *secret*
 *password*
 *credential*
+config/local_paths.yaml
+config/*local*.yaml
+config/*private*.yaml
 

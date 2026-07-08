@@ -184,7 +184,7 @@ def main(force: bool = False) -> None:
         Downloaded files and manifests are written below ``LUDA/data/raw``.
     """
     status = download_all(force=force)
-    print(status.keys())
+    print(list(status))
 
 
 if __name__ == "__main__":

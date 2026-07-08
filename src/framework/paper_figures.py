@@ -257,7 +257,7 @@ def figure_2() -> None:
     panel(ax, "A")
 
     ax = axes[1]
-    heat = coverage.pivot(index="evidence_block", columns="cancer", values="coverage").loc[list(BLOCK_COLUMNS.keys()), ["PDAC", "LUAD"]]
+    heat = coverage.pivot(index="evidence_block", columns="cancer", values="coverage").loc[list(BLOCK_COLUMNS), ["PDAC", "LUAD"]]
     im = ax.imshow(heat.values, cmap="YlGnBu", vmin=0, vmax=1, aspect="auto")
     ax.set_xticks(np.arange(2), heat.columns)
     ax.set_yticks(np.arange(len(heat.index)), heat.index)

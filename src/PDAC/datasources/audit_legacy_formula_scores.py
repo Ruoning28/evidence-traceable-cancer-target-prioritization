@@ -49,7 +49,7 @@ def repository_root() -> Path:
     Returns
     -------
     pathlib.Path
-        Absolute path to the ``evidence_traceable_submission`` directory.
+        Absolute path to the repository root.
     """
     return Path(__file__).resolve().parents[2]
 

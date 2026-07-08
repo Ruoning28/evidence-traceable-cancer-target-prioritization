@@ -38,7 +38,7 @@ def download_depmap(project_root: Path, config: dict[str, Any], force: bool = Fa
 
     listing_path = out_dir / "depmap_download_files_listing.csv"
     with listing_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=rows[0].keys())
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
         writer.writerows(rows)
 

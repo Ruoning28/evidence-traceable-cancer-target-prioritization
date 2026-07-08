@@ -103,6 +103,8 @@ Raw public data sources are cited in the manuscript.
 
 The analyses use public multi-source data and cancer-specific processed evidence matrices. Some large input and output files are not stored directly in this GitHub repository. See `supplementary_manifest/` for file descriptions and data-source manifests.
 
+Users should update local input and output paths in the example configuration files before running the analysis. No local absolute paths are required by default.
+
 The `figures/source/` directory contains small machine-readable source tables for reproducing selected paper figures. The `figures/paper_preview/` directory contains small preview copies of final paper figures for orientation only.
 
 ## License
