@@ -115,5 +115,5 @@ This code is released under the MIT License.
 
 If you use this code, please cite the associated manuscript:
 
-Li R, Lan W. An evidence-traceable framework for cancer therapeutic target assessment and prioritization from public multi-source data.
+Li R, Wang D, Lan W. An evidence-traceable framework for cancer therapeutic target assessment and prioritization from public multi-source data.
 

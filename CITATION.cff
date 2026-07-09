@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: Li
     given-names: Ruoning
+  - family-names: Wang
+    given-names: Dexi
   - family-names: Lan
     given-names: Wei
 repository-code: "https://github.com/Ruoning28/evidence-traceable-cancer-target-prioritization"

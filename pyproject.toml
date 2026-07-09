@@ -11,6 +11,7 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
   {name = "Ruoning Li"},
+  {name = "Dexi Wang"},
   {name = "Wei Lan"}
 ]
 dependencies = [
