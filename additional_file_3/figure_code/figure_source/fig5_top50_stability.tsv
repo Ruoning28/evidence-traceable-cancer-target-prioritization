@@ -1,0 +1,25 @@
+﻿cancer	axis	analysis	metric	n_replicates	estimate	range_p025	range_p975	interval_type
+PDAC	translational	background_ensemble	top50_overlap_fraction	20	0.88	0.7295	0.921	empirical perturbation range; not a biological CI
+PDAC	translational	background_ensemble	top50_recovery	20	0.3636363636363636	0.3636363636363636	0.3636363636363636	empirical perturbation range; not a biological CI
+PDAC	translational	background_ensemble	spearman_with_primary	20	0.9701363895161024	0.9340400000284856	0.9831191900301172	empirical perturbation range; not a biological CI
+PDAC	translational	label_thinning	top50_overlap_fraction	50	0.54	0.32	0.7755	empirical perturbation range; not a biological CI
+PDAC	translational	label_thinning	top50_recovery	50	0.2727272727272727	0.0909090909090909	0.3636363636363636	empirical perturbation range; not a biological CI
+PDAC	translational	label_thinning	spearman_with_primary	50	0.8321405491232647	0.6771146974623755	0.9544774486065596	empirical perturbation range; not a biological CI
+PDAC	functional	background_ensemble	top50_overlap_fraction	20	0.94	0.9	0.96	empirical perturbation range; not a biological CI
+PDAC	functional	background_ensemble	top50_recovery	20	0.1333333333333333	0.1333333333333333	0.1333333333333333	empirical perturbation range; not a biological CI
+PDAC	functional	background_ensemble	spearman_with_primary	20	0.9812439224177358	0.945904721133038	0.9958210842958176	empirical perturbation range; not a biological CI
+PDAC	functional	label_thinning	top50_overlap_fraction	50	0.78	0.589	0.8909999999999999	empirical perturbation range; not a biological CI
+PDAC	functional	label_thinning	top50_recovery	50	0.1333333333333333	0.1	0.1666666666666666	empirical perturbation range; not a biological CI
+PDAC	functional	label_thinning	spearman_with_primary	50	0.9266052952752056	0.2372310222920407	0.9891497878090936	empirical perturbation range; not a biological CI
+LUAD	translational	background_ensemble	top50_overlap_fraction	20	0.92	0.8895	0.96	empirical perturbation range; not a biological CI
+LUAD	translational	background_ensemble	top50_recovery	20	0.5714285714285714	0.5714285714285714	0.5714285714285714	empirical perturbation range; not a biological CI
+LUAD	translational	background_ensemble	spearman_with_primary	20	0.9332721961013816	0.8039838547473162	0.9733328414545368	empirical perturbation range; not a biological CI
+LUAD	translational	label_thinning	top50_overlap_fraction	50	0.68	0.4445	0.8354999999999999	empirical perturbation range; not a biological CI
+LUAD	translational	label_thinning	top50_recovery	50	0.4285714285714285	0.1428571428571428	0.5714285714285714	empirical perturbation range; not a biological CI
+LUAD	translational	label_thinning	spearman_with_primary	50	0.8847565422376639	0.3943893211790056	0.9707950263754508	empirical perturbation range; not a biological CI
+LUAD	functional	background_ensemble	top50_overlap_fraction	20	0.96	0.9295	0.98	empirical perturbation range; not a biological CI
+LUAD	functional	background_ensemble	top50_recovery	20	0.0555555555555555	0.0555555555555555	0.0555555555555555	empirical perturbation range; not a biological CI
+LUAD	functional	background_ensemble	spearman_with_primary	20	0.9987403630395612	0.9971882432993276	0.9994269370417668	empirical perturbation range; not a biological CI
+LUAD	functional	label_thinning	top50_overlap_fraction	50	0.76	0.5	0.92	empirical perturbation range; not a biological CI
+LUAD	functional	label_thinning	top50_recovery	50	0.0555555555555555	0.0	0.0555555555555555	empirical perturbation range; not a biological CI
+LUAD	functional	label_thinning	spearman_with_primary	50	0.98042006750048	0.7877933781216562	0.9957406751953776	empirical perturbation range; not a biological CI

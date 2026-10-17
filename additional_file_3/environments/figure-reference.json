@@ -1,0 +1,60 @@
+{
+  "manuscript_pdf_sha256": "f2d41aa3c37f44e4822b4ffe67129e9ffa72c6367a38fc1cf7c489741e0ea1d6",
+  "comparison": {
+    "dpi": 300,
+    "format": "RGB 8-bit",
+    "context": "Article Form XObject transparency group preserved; no registration or resampling"
+  },
+  "figures": [
+    {
+      "figure": 2,
+      "page": 27,
+      "native_content_sha256": "a69f973fb72649613149d2adb383269dcac3be687a1383524a12359b9d3ab3f0",
+      "rgb_sha256": "09c6c5915dd88f84cbc1569481759219d5ecec1fe69fabaa5476731b26926b28",
+      "pixel_size": [
+        2255,
+        1611
+      ]
+    },
+    {
+      "figure": 3,
+      "page": 30,
+      "native_content_sha256": "d6bec189334391205a8a086dd40a98b497488276992dbcf68015f483c38575f2",
+      "rgb_sha256": "3bb54da607d3177472da3db960bd78ac1484baeca08221c43214192935451920",
+      "pixel_size": [
+        2205,
+        829
+      ]
+    },
+    {
+      "figure": 4,
+      "page": 32,
+      "native_content_sha256": "c87908c04d4dce8941ab8a9bba46900c20c1da6d2a609e2aa88482c1eefef386",
+      "rgb_sha256": "6bf848115d2106ad7bd8eb854fdb6c7e378e02c2fa1c5b75f17fc0b2d2d1cc59",
+      "pixel_size": [
+        2205,
+        886
+      ]
+    },
+    {
+      "figure": 5,
+      "page": 34,
+      "native_content_sha256": "2625230945ea43eca13d534c0d1cb8bc7481bd81d322e6c157e324566c586bbb",
+      "rgb_sha256": "384dc73178df9b51f8c54b8a601ed95a84d0424619840fb04f8f819e8f1ae8b2",
+      "pixel_size": [
+        2254,
+        1800
+      ]
+    },
+    {
+      "figure": 6,
+      "page": 39,
+      "native_content_sha256": "b197f66d61db901f6640765e83c9b198b7944370b04073b836ee333587d615a6",
+      "rgb_sha256": "a6f04e1dfea27a8f615cbb60d991d99893d2e75838ae0faa22bc715d06e8b80b",
+      "pixel_size": [
+        2207,
+        1697
+      ]
+    }
+  ]
+}

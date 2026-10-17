@@ -1,0 +1,17 @@
+{
+  "display_name": "Reproducibility support",
+  "legacy_machine_fields": [
+    "external_reproducibility_score",
+    "external_reproducibility",
+    "geo_external_reproducibility_score",
+    "external_positive_support"
+  ],
+  "PDAC": "GEO cross-cohort support",
+  "LUAD": "Internal equal-weight TCGA-expression/DepMap-dependency composite; not independent external replication",
+  "fig2_block_columns": [
+    "external_reproducibility_score",
+    "geo_external_reproducibility_score",
+    "opentargets_overall_score"
+  ],
+  "scope": "Documentation mapping. Executed plotting label is BLOCK_COLUMNS key in generate_figure2.py; no machine key renamed."
+}

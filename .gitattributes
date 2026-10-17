@@ -1,0 +1,4 @@
+# Preserve the audited release bytes and its internal SHA-256 manifest.
+/additional_file_3/** -text
+/releases/Additional_file_3.zip binary
+/releases/Additional_file_3.zip.sha256 -text

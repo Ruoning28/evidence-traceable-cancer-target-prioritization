@@ -1,0 +1,274 @@
+project:
+  disease: "Pancreatic ductal adenocarcinoma"
+  disease_short: "PDAC"
+  tcga_project: "TCGA-PAAD"
+  random_seed: 42
+  version: "V4_competition_aware_target_triage"
+
+paths:
+  raw_data: "data/raw"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  results: "results"
+  figures: "results/figures"
+  tables: "results/tables"
+  logs: "results/logs"
+
+downloads:
+  gdc:
+    download_expression_counts: true
+    download_mutation_maf: true
+    download_copy_number_segments: true
+    expression_workflow: "STAR - Counts"
+    expression_max_files: 0
+  depmap:
+    release: "latest"
+    files:
+      - "Model.csv"
+      - "CRISPRGeneEffect.csv"
+      - "CRISPRGeneDependency.csv"
+      - "AchillesCommonEssentialControls.csv"
+      - "OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv"
+    supplemental_files:
+      - release: "DepMap Public 26Q1"
+        filename: "OmicsSomaticMutations.csv"
+      - release: "DepMap Public 26Q1"
+        filename: "OmicsSomaticMutationsMAF.maf"
+      - release: "DepMap Public 26Q1"
+        filename: "OmicsSomaticMutationsMatrixHotspot.csv"
+      - release: "DepMap Public 26Q1"
+        filename: "OmicsSomaticMutationsMatrixDamaging.csv"
+      - release: "DepMap Public 26Q1"
+        filename: "OmicsCNSegmentsWGS.csv"
+      - release: "DEMETER2 Data v6"
+        filename: "sample_info.csv"
+      - release: "DEMETER2 Data v6"
+        filename: "D2_combined_gene_dep_scores.csv"
+      - release: "DEMETER2 Data v6"
+        filename: "D2_combined_gene_dep_score_SDs.csv"
+      - release: "DEMETER2 Data v6"
+        filename: "CCLE_mutation_data.csv"
+      - release: "DEMETER2 Data v6"
+        filename: "WES_SNP_CN_data.csv"
+      - release: "DEMETER2 Data v6"
+        filename: "RNAseq_lRPKM_data.csv"
+      - release: "Harmonized PRISM Repurposing Secondary Screen 25Q2"
+        filename: "REPURPOSINGAUCMatrix.csv"
+      - release: "Harmonized PRISM Repurposing Secondary Screen 25Q2"
+        filename: "REPURPOSINGLog2IC50Matrix.csv"
+      - release: "Harmonized PRISM Repurposing Secondary Screen 25Q2"
+        filename: "REPURPOSINGLog2ViabilityConditions.csv"
+  cptac_pdac:
+    source: "LinkedOmics CPTAC-PDAC"
+    files:
+      - "clinical_table_140.tsv"
+      - "mRNA_RSEM_UQ_log2_Tumor.cct"
+      - "mRNA_RSEM_UQ_log2_Normal.cct"
+      - "proteomics_gene_level_MD_abundance_tumor.cct"
+      - "proteomics_gene_level_MD_abundance_normal.cct"
+      - "phosphoproteomics_gene_level_MD_abundance_tumor.cct"
+      - "SCNA_log2_gene_level.cct"
+      - "Mutation_results.maf"
+  external_geo:
+    series:
+      - "GSE62452"
+      - "GSE15471"
+      - "GSE16515"
+      - "GSE28735"
+      - "GSE62165"
+      - "GSE71729"
+  druggability:
+    opentargets_diseases:
+      - id: "MONDO_0005184"
+        label: "pancreatic_ductal_adenocarcinoma"
+      - id: "EFO_1000044"
+        label: "pancreatic_adenocarcinoma"
+      - id: "EFO_0002618"
+        label: "pancreatic_carcinoma"
+    dgidb_files:
+      - "interactions.tsv"
+      - "genes.tsv"
+      - "drugs.tsv"
+      - "categories.tsv"
+    download_chembl_sqlite: true
+    ttd_base_url: "https://ttd.idrblab.cn/files/download/"
+    ttd_files:
+      - "P1-01-TTD_target_download.txt"
+      - "P1-02-TTD_drug_download.txt"
+      - "P1-03-TTD_crossmatching.txt"
+      - "P1-04-Drug_synonyms.txt"
+      - "P1-05-Drug_disease.txt"
+      - "P1-06-Target_disease.txt"
+      - "P1-07-Drug-TargetMapping.xlsx"
+      - "P1-08-Biomarker_disease.txt"
+      - "P1-09-Target_compound_activity.txt"
+      - "P2-01-TTD_uniprot_all.txt"
+      - "P2-06-TTD_sequence_all.txt"
+      - "P4-01-Target-KEGGpathway_all.txt"
+      - "P4-06-Target-wikipathway_all.txt"
+    drugcentral_files:
+      - filename: "drug.target.interaction.tsv.gz"
+        url: "https://unmtid-dbs.net/download/DrugCentral/2021_09_01/drug.target.interaction.tsv.gz"
+      - filename: "FDA_Approved.csv"
+        url: "https://drugcentral.org/static/FDA_Approved.csv"
+      - filename: "EMA_Approved.csv"
+        url: "https://drugcentral.org/static/EMA_Approved.csv"
+      - filename: "PMDA_Approved.csv"
+        url: "https://drugcentral.org/static/PMDA_Approved.csv"
+      - filename: "FDA_EMA_PMDA_Approved.csv"
+        url: "https://drugcentral.org/static/FDA%2BEMA%2BPMDA_Approved.csv"
+    iuphar_gtopdb_files:
+      - filename: "targets_and_families.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/targets_and_families.tsv"
+      - filename: "ligands.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/ligands.tsv"
+      - filename: "approved_drug_primary_target_interactions.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/approved_drug_primary_target_interactions.tsv"
+      - filename: "approved_drug_detailed_interactions.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/approved_drug_detailed_interactions.tsv"
+      - filename: "interactions.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/interactions.tsv"
+      - filename: "GtP_to_HGNC_mapping.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/GtP_to_HGNC_mapping.tsv"
+      - filename: "GtP_to_UniProt_mapping.tsv"
+        url: "https://www.guidetopharmacology.org/DATA/GtP_to_UniProt_mapping.tsv"
+      - filename: "public_iuphardb_v2026.1.zip"
+        url: "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2026.1.zip"
+    uniprot_human_proteome:
+      filename: "uniprot_human_proteome_UP000005640.tsv.gz"
+      url: "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&query=%28proteome%3AUP000005640%29&fields=accession%2Cid%2Cgene_names%2Cprotein_name%2Ccc_subcellular_location%2Cft_topo_dom%2Cft_transmem%2Cec%2Cgo_p%2Cgo_c%2Cgo_f%2Ckeyword"
+  safety:
+    gtex_files:
+      - filename: "GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.gct.gz"
+        url: "https://storage.googleapis.com/adult-gtex/bulk-gex/v10/rna-seq/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.gct.gz"
+    hpa_files:
+      - filename: "proteinatlas.tsv.zip"
+        url: "https://www.proteinatlas.org/download/proteinatlas.tsv.zip"
+      - filename: "rna_tissue_consensus.tsv.zip"
+        url: "https://www.proteinatlas.org/download/tsv/rna_tissue_consensus.tsv.zip"
+      - filename: "rna_tissue_consensus_tissues.tsv.zip"
+        url: "https://www.proteinatlas.org/download/tsv/rna_tissue_consensus_tissues.tsv.zip"
+      - filename: "rna_tissue_gtex.tsv.zip"
+        url: "https://www.proteinatlas.org/download/tsv/rna_tissue_gtex.tsv.zip"
+      - filename: "rna_tissue_gtex_tissues.tsv.zip"
+        url: "https://www.proteinatlas.org/download/tsv/rna_tissue_gtex_tissues.tsv.zip"
+      - filename: "rna_tissue_detail_gtex.tsv.zip"
+        url: "https://www.proteinatlas.org/download/tsv/rna_tissue_detail_gtex.tsv.zip"
+      - filename: "subcellular_location.tsv.zip"
+        url: "https://www.proteinatlas.org/download/tsv/subcellular_location.tsv.zip"
+    gnomad_constraint:
+      filename: "gnomad.v4.1.1.constraint_metrics.tsv.bgz"
+      url: "https://storage.googleapis.com/gcp-public-data--gnomad/release/4.1.1/constraint/gnomad.v4.1.1.constraint_metrics.tsv.bgz"
+  network:
+    reactome_files:
+      - filename: "UniProt2Reactome_All_Levels.txt"
+        url: "https://reactome.org/download/current/UniProt2Reactome_All_Levels.txt"
+      - filename: "ReactomePathways.txt"
+        url: "https://reactome.org/download/current/ReactomePathways.txt"
+      - filename: "ReactomePathwaysRelation.txt"
+        url: "https://reactome.org/download/current/ReactomePathwaysRelation.txt"
+    string_files:
+      - filename: "9606.protein.info.v12.0.txt.gz"
+        url: "https://stringdb-downloads.org/download/protein.info.v12.0/9606.protein.info.v12.0.txt.gz"
+      - filename: "9606.protein.links.detailed.v12.0.txt.gz"
+        url: "https://stringdb-downloads.org/download/protein.links.detailed.v12.0/9606.protein.links.detailed.v12.0.txt.gz"
+    biogrid_files:
+      - filename: "BIOGRID-ORGANISM-LATEST.tab3.zip"
+        url: "https://downloads.thebiogrid.org/Download/BioGRID/Latest-Release/BIOGRID-ORGANISM-LATEST.tab3.zip"
+  literature_benchmark:
+    sources:
+      - key: "guo2025"
+        pmcid: "PMC12807561"
+        files:
+          - "NIHMS2113382-supplement-1.pdf"
+          - "NIHMS2113382-supplement-2.xlsx"
+          - "NIHMS2113382-supplement-3.xlsx"
+      - key: "nwosu2025"
+        pmcid: "PMC11949049"
+        direct_files:
+          - filename: "jciinsight-10-174264-s247.pdf"
+            url: "https://insight.jci.org/articles/view/174264/sd/pdf/render/1"
+          - filename: "jciinsight-10-174264-s248.xlsx"
+            url: "https://insight.jci.org/articles/view/174264/sd/pdf/render/2"
+          - filename: "jciinsight-10-174264-s249.xlsx"
+            url: "https://insight.jci.org/articles/view/174264/sd/pdf/render/3"
+        files:
+          - "jciinsight-10-174264-s247.pdf"
+          - "jciinsight-10-174264-s248.xlsx"
+          - "jciinsight-10-174264-s249.xlsx"
+      - key: "tcga_depmap_shi2024"
+        pmcid: "PMC11358024"
+        figshare_project_id: 130193
+        files:
+          - "43018_2024_789_MOESM1_ESM.pdf"
+          - "43018_2024_789_MOESM2_ESM.xlsx"
+          - "43018_2024_789_MOESM3_ESM.csv"
+          - "43018_2024_789_MOESM4_ESM.csv"
+          - "43018_2024_789_MOESM5_ESM.xlsx"
+          - "43018_2024_789_MOESM6_ESM.xlsx"
+          - "43018_2024_789_MOESM7_ESM.xlsx"
+          - "43018_2024_789_MOESM8_ESM.xlsx"
+          - "43018_2024_789_MOESM9_ESM.xlsx"
+          - "43018_2024_789_MOESM10_ESM.xlsx"
+          - "43018_2024_789_MOESM11_ESM.xlsx"
+          - "43018_2024_789_MOESM12_ESM.xlsx"
+          - "43018_2024_789_MOESM13_ESM.pdf"
+          - "43018_2024_789_MOESM14_ESM.xlsx"
+          - "43018_2024_789_MOESM15_ESM.xlsx"
+          - "43018_2024_789_MOESM16_ESM.xlsx"
+          - "43018_2024_789_MOESM17_ESM.xlsx"
+          - "43018_2024_789_MOESM18_ESM.xlsx"
+          - "43018_2024_789_MOESM19_ESM.xlsx"
+          - "43018_2024_789_MOESM20_ESM.xlsx"
+          - "43018_2024_789_MOESM21_ESM.xlsx"
+          - "43018_2024_789_MOESM22_ESM.xlsx"
+          - "43018_2024_789_MOESM23_ESM.pdf"
+      - key: "savage2024"
+        pmcid: "PMC12010439"
+        note: "Europe PMC fullTextXML unavailable; use Cell article data/supplementary links manually if not resolved."
+
+feasibility_thresholds:
+  tcga_rna_tumor_min: 120
+  tcga_survival_min: 100
+  cptac_proteomics_min: 30
+  depmap_pdac_cell_lines_min: 15
+  external_cohort_min: 2
+  drug_mapping_min_fraction: 0.40
+  id_mapping_min_fraction: 0.80
+  literature_benchmark_min_sources: 2
+
+scoring:
+  mode: "auto"
+  primary_method: "pillar_geometric_mean_with_safety_penalty"
+  use_fixed_weights_as_primary: false
+  use_proteomics_if_available: true
+  geometric_mean_epsilon: 1.0e-6
+  pillars:
+    disease_relevance:
+      standard_components:
+        - patient_alteration_score
+        - proteomic_support_score
+        - external_reproducibility_score
+      minimal_components:
+        - patient_alteration_score
+        - external_reproducibility_score
+    core_priority:
+      components:
+        - disease_relevance_score
+        - dependency_score
+        - druggability_score
+    safety:
+      risk_score: safety_risk_score
+      factor_formula: "1 - safety_risk_score"
+  robustness:
+    random_weight_sets: 1000
+    leave_one_evidence_out: true
+    report_top_n_frequency: [10, 20, 50]
+
+visualization:
+  dpi: 300
+  save_pdf: true
+  save_png: true
+  top_n_heatmap: 30
+  top_n_dependency: 30
+  top_n_target_cards: 6

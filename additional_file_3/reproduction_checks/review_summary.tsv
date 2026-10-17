@@ -1,0 +1,7 @@
+cancer	backend	n_candidates	n_archived_reference_priority	n_reference_priority_all_completions	n_archived_priority_not_completion_robust	n_archived_priority_with_unobserved_constraint	n_single_class_all31policies	n_multi_class_all31policies
+PDAC	archived_strict_elastic_net	40583	346	345	1	5	8722	31861
+PDAC	direction_corrected_mean_same_information	40583	197	197	0	5	9088	31495
+PDAC	native_rank_aggregation_trans_plus_dependency_func	40583	402	400	2	11	8324	32259
+LUAD	archived_strict_elastic_net	35470	303	300	3	8	10884	24586
+LUAD	direction_corrected_mean_same_information	35470	155	155	0	1	11109	24361
+LUAD	native_rank_aggregation_trans_plus_dependency_func	35470	262	261	1	7	10738	24732
