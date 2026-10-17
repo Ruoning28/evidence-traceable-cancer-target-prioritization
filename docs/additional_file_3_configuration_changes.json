@@ -1,0 +1,38 @@
+[
+  {
+    "cancer": "PDAC",
+    "key": "model.normalize_class_weights_initially",
+    "original": null,
+    "release": true
+  },
+  {
+    "cancer": "PDAC",
+    "key": "model.tol",
+    "original": null,
+    "release": 1e-06
+  },
+  {
+    "cancer": "PDAC",
+    "key": "sensitivity.n_repeats",
+    "original": 10,
+    "release": 30
+  },
+  {
+    "cancer": "LUAD",
+    "key": "model.normalize_class_weights_initially",
+    "original": null,
+    "release": true
+  },
+  {
+    "cancer": "LUAD",
+    "key": "model.tol",
+    "original": null,
+    "release": 1e-06
+  },
+  {
+    "cancer": "LUAD",
+    "key": "sensitivity.n_repeats",
+    "original": 10,
+    "release": 30
+  }
+]

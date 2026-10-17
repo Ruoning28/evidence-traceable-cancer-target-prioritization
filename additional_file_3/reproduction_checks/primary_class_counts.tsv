@@ -1,0 +1,13 @@
+cancer	review_class	count
+PDAC	Class VI: insufficient or mixed evidence	34204
+PDAC	Class V: biomarker-like or low-dependency candidate	2974
+PDAC	Class III: dependency-supported candidate with limited actionability	1883
+PDAC	Class IV: safety-risk candidate	1184
+PDAC	Class I: translational-precedence candidate	267
+PDAC	Class II: functional-discovery candidate	79
+LUAD	Class VI: insufficient or mixed evidence	32026
+LUAD	Class V: biomarker-like or low-dependency candidate	1390
+LUAD	Class IV: safety-risk candidate	1184
+LUAD	Class III: dependency-supported candidate with limited actionability	574
+LUAD	Class I: translational-precedence candidate	289
+LUAD	Class II: functional-discovery candidate	15

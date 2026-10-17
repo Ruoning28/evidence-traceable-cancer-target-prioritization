@@ -1,0 +1,722 @@
+[
+  {
+    "name": "aom",
+    "version": "3.12.1",
+    "build": "h00a0c3c_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/aom-3.12.1-h00a0c3c_0.conda",
+    "md5": "d5ed6d55279b36ee4b3088f80843b359",
+    "sha256": "e96fd511eb0c3fb67aa6ad24b2a14e730a92b3c6cfb776a73b728cd912dd9953",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "blas",
+    "version": "1.0",
+    "build": "mkl",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/blas-1.0-mkl.conda",
+    "md5": "29c8be9152b7cbf29578794154d2408f",
+    "sha256": "b289fbee56e55bedc51cc333bacd32b3632a116d9d60d1176740b035dbaf44a2",
+    "license": ""
+  },
+  {
+    "name": "bottleneck",
+    "version": "1.4.2",
+    "build": "py313h540bb41_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/bottleneck-1.4.2-py313h540bb41_1.conda",
+    "md5": "028db917b514dc473215acb7e5b1abe2",
+    "sha256": "72d1d1b14c47363d68a75d00d1eb267901d7140a8edb9c83311878398d089369",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "bzip2",
+    "version": "1.0.8",
+    "build": "h2bbff1b_6",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/bzip2-1.0.8-h2bbff1b_6.conda",
+    "md5": "33e784123d565c38e68945f07b461282",
+    "sha256": "4e30c9bfd4501555b0859c863e95ea044290babf3bf190b9d4fb38b06cf15c3c",
+    "license": "bzip2-1.0.8"
+  },
+  {
+    "name": "ca-certificates",
+    "version": "2025.11.4",
+    "build": "haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/ca-certificates-2025.11.4-haa95532_0.conda",
+    "md5": "4334b57f16e8db7cbb13362f35033757",
+    "sha256": "bd84dd7ae232de4abffdb1966fc8726ff34820cae17929c7b9f85bc6d0e6ac3a",
+    "license": "MPL-2.0"
+  },
+  {
+    "name": "cairo",
+    "version": "1.18.4",
+    "build": "he9e932c_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/cairo-1.18.4-he9e932c_0.conda",
+    "md5": "16ddad359dc7d979902ebf44e84aa2c5",
+    "sha256": "7fa5cd252dcefb5cf391a7e4f0fb4f7f307d2d5860a15d836d37cfc874a7e6f3",
+    "license": "LGPL-2.1-or-later or MPL-1.1"
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.3",
+    "build": "py313h214f63a_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/contourpy-1.3.3-py313h214f63a_0.conda",
+    "md5": "2268706a0dac838ea7e5a61c3a6bc7d2",
+    "sha256": "31c581a87e2f7534ef08e51cf1f5e9cc12fc1a5023b85e391c71c37a92eff4d9",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "cycler",
+    "version": "0.11.0",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch",
+    "url": "https://repo.anaconda.com/pkgs/main/noarch/cycler-0.11.0-pyhd3eb1b0_0.conda",
+    "md5": "f5e365d2cdb66d547eb8c3ab93843aab",
+    "sha256": "dda35af3a1f92960aa01fee1e3c3587da67a23f186a09a2c313fc325392216c3",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "dav1d",
+    "version": "1.2.1",
+    "build": "h2bbff1b_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/dav1d-1.2.1-h2bbff1b_0.conda",
+    "md5": "f6cf60da7a4df5f9b63d427ebca8bd39",
+    "sha256": "94fd837983f2c15f537659f213c8b09db109645d4cfff214e044e9d32e5eff10",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "expat",
+    "version": "2.7.3",
+    "build": "h9214b88_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/expat-2.7.3-h9214b88_0.conda",
+    "md5": "d5ea5838bd330f5b85ee7b4855ac864c",
+    "sha256": "9bdab313dadd2cf7192b43eed9a2e6679261b99ca98dc010035a87f906d7ec61",
+    "license": "MIT"
+  },
+  {
+    "name": "fontconfig",
+    "version": "2.15.0",
+    "build": "hd211d86_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/fontconfig-2.15.0-hd211d86_0.conda",
+    "md5": "e1002414616b097f05ad3b0fb5285d8d",
+    "sha256": "7ec8f42a99c21dcbc9448e8bb8e86d82ed165dbff1501810de50bc640f9645ec",
+    "license": "MIT"
+  },
+  {
+    "name": "fonttools",
+    "version": "4.60.1",
+    "build": "py313h02ab6af_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/fonttools-4.60.1-py313h02ab6af_0.conda",
+    "md5": "6e87f7201b069cfa59bd5ce85f2642d5",
+    "sha256": "659f02171466fb39160cb95622e40954d540a5abf2d32f03b028e63cb1d81704",
+    "license": "MIT"
+  },
+  {
+    "name": "freeglut",
+    "version": "3.4.0",
+    "build": "h8a1e904_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/freeglut-3.4.0-h8a1e904_1.conda",
+    "md5": "3100f4cc06a79005b9ea5c8816309a98",
+    "sha256": "26df472d210228171494dc7861f0141075a90f2ec1d9c80688bda04187653e80",
+    "license": "MIT"
+  },
+  {
+    "name": "freetype",
+    "version": "2.13.3",
+    "build": "h0620614_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/freetype-2.13.3-h0620614_0.conda",
+    "md5": "dd4baf224d4ae4e834765cdfafe7ee5b",
+    "sha256": "59d0ce2dd52326896e7a01ef709a3b4b5f8db8e38e4d7be4942dc4acfbb2b900",
+    "license": "GPL-2.0-only or FTL"
+  },
+  {
+    "name": "fribidi",
+    "version": "1.0.10",
+    "build": "h62dcd97_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/fribidi-1.0.10-h62dcd97_0.conda",
+    "md5": "be16bbf8945ea9a2da7e3b7862bf9e08",
+    "sha256": "81569d6fb4a78dd7785a08211e305602f5c447cc8458bf71c1484ffc702376fb",
+    "license": "LGPL-2.1"
+  },
+  {
+    "name": "graphite2",
+    "version": "1.3.14",
+    "build": "hd77b12b_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/graphite2-1.3.14-hd77b12b_1.conda",
+    "md5": "fbb6cb5925cdb51a6721bf685e9844ad",
+    "sha256": "d6327a058f5ef4ad6521c4fde859a28684eac04b917e9016176a0950d41c721f",
+    "license": "LGPL-2.1-or-later"
+  },
+  {
+    "name": "harfbuzz",
+    "version": "10.2.0",
+    "build": "he2f9f60_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/harfbuzz-10.2.0-he2f9f60_1.conda",
+    "md5": "c94bd5c51054aaa1151f22d83e3bc8c3",
+    "sha256": "337a1e100c0ad1f1d8fa1878d1a1abbd0ec7bcd6a94a249e737c651aaf2b33b5",
+    "license": "MIT"
+  },
+  {
+    "name": "icu",
+    "version": "73.1",
+    "build": "h6c2663c_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/icu-73.1-h6c2663c_0.conda",
+    "md5": "fc3e340c69e5b0588787ec4ef37c189b",
+    "sha256": "0d80fa574049a7fdea10f9e24191ae04663e19123a6459cdd893247b371e24f9",
+    "license": "MIT"
+  },
+  {
+    "name": "intel-openmp",
+    "version": "2025.0.0",
+    "build": "haa95532_1164",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2025.0.0-haa95532_1164.conda",
+    "md5": "0de719e142529193adea7a7757e403df",
+    "sha256": "21590140f9c5b12bdc5f3c084d4550cd52d7c3fb5b609e8248a129e16b06299c",
+    "license": "LicenseRef-IntelSimplifiedSoftwareOct2022"
+  },
+  {
+    "name": "jpeg",
+    "version": "9f",
+    "build": "ha349fce_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/jpeg-9f-ha349fce_0.conda",
+    "md5": "8d89ac2996713e9c473377e7d249c0cc",
+    "sha256": "5f838af84fa432ba6498bb9c149fa66383f7805cbf351df0f9e70cf2c6ca9034",
+    "license": "IJG"
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.4.9",
+    "build": "py313h03f52e7_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/kiwisolver-1.4.9-py313h03f52e7_0.conda",
+    "md5": "d21a5f6e60053711471e21f710948e9a",
+    "sha256": "427bfb50ecf112162511f9bb61bfc3eba5dd41a374c8f2e8b4a05413cd919ce3",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "lcms2",
+    "version": "2.17",
+    "build": "h3732fa5_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/lcms2-2.17-h3732fa5_0.conda",
+    "md5": "5b0df25986193f68b6fdb8df87d192d5",
+    "sha256": "c98f9c69ca7a20df97974525c1d2515e6dd4dadd917459cc76dd35be3eff81f3",
+    "license": "MIT"
+  },
+  {
+    "name": "lerc",
+    "version": "4.0.0",
+    "build": "h5da7b33_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/lerc-4.0.0-h5da7b33_0.conda",
+    "md5": "0ca244715eee0627a86e4d51a40727f1",
+    "sha256": "93dac5ffe9b614a239fa2b17f293f9831b535a7ccb905067555ae83236f1ac2f",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "libavif",
+    "version": "1.3.0",
+    "build": "h5bd13ec_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libavif-1.3.0-h5bd13ec_0.conda",
+    "md5": "140df7ff295ebb589e5523f1bce31914",
+    "sha256": "247712b5783e663a9edd5ca145085dfb9859ced1e40f37f87a35f436cdf2cddc",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "libdeflate",
+    "version": "1.22",
+    "build": "h5bf469e_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libdeflate-1.22-h5bf469e_0.conda",
+    "md5": "413ecfa808ea40cdd0b056f619c8730e",
+    "sha256": "0666c311a83ddba585a93ee84da060f814e738bdac18533eaa315b4af4df69dc",
+    "license": "MIT"
+  },
+  {
+    "name": "libffi",
+    "version": "3.4.4",
+    "build": "hd77b12b_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libffi-3.4.4-hd77b12b_1.conda",
+    "md5": "9807b377e11739ae3e920e10e607e460",
+    "sha256": "43a437fde4c064b2f1be2342a7bc6edccbc13da6a4fb8a44d87e4e6e34c54b63",
+    "license": "MIT"
+  },
+  {
+    "name": "libglib",
+    "version": "2.84.4",
+    "build": "hfaec014_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libglib-2.84.4-hfaec014_0.conda",
+    "md5": "057fb61b250bf587e3fad7b13c73c539",
+    "sha256": "96d8523acbdc40ad25e1297d337b00be59991e7414f62438d106e0eea3232270",
+    "license": "LGPL-2.1-or-later"
+  },
+  {
+    "name": "libiconv",
+    "version": "1.16",
+    "build": "h2bbff1b_3",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libiconv-1.16-h2bbff1b_3.conda",
+    "md5": "1564a57e99efb880d46002dc825d07c1",
+    "sha256": "5007a6224c5b80e68d01bb04628ecc6a1e2a64a634857ec89ddb1e1f7b3329e4",
+    "license": "GPL-3.0-or-later"
+  },
+  {
+    "name": "libmpdec",
+    "version": "4.0.0",
+    "build": "h827c3e9_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libmpdec-4.0.0-h827c3e9_0.conda",
+    "md5": "a294b317c2e3732cafdba824a893b80c",
+    "sha256": "3851b0985a481e019440ee2720bdfe1a98fe4db8cd67f8cc16333a0fa40f38df",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "libopenjpeg",
+    "version": "2.5.4",
+    "build": "h02ab6af_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libopenjpeg-2.5.4-h02ab6af_1.conda",
+    "md5": "0969d72a5b7fa2b7ec3fa5cc3e083dd1",
+    "sha256": "a8f222ee23662a2f26dd6f1e62d5a41909a5d86c112aada0bcc176ec7d191d16",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "libpng",
+    "version": "1.6.50",
+    "build": "h46444df_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libpng-1.6.50-h46444df_0.conda",
+    "md5": "bbd0c7d1b5101195401b86f5d3ff80cc",
+    "sha256": "9fece7424bac5a1187d3eda761cce53c36b0959237c383cf1b01cfc9a62c176a",
+    "license": "Zlib"
+  },
+  {
+    "name": "libtiff",
+    "version": "4.7.1",
+    "build": "h3a18249_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libtiff-4.7.1-h3a18249_0.conda",
+    "md5": "a7f1ba7b9b6648b360dc5cc3965b30f7",
+    "sha256": "af5bf5b4c06aefd4c49fb51b0c800bcad8253ecd7277618d6b079904e53be2bf",
+    "license": "HPND"
+  },
+  {
+    "name": "libwebp-base",
+    "version": "1.6.0",
+    "build": "hbf3958f_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libwebp-base-1.6.0-hbf3958f_0.conda",
+    "md5": "c3da581a0f9ef6e8a74e840ca4ad26e1",
+    "sha256": "84fa8061f0dbf3ec512beda59c3c090187543e67c654662e37577a10ef812934",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "libxml2",
+    "version": "2.13.9",
+    "build": "h6201b9f_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libxml2-2.13.9-h6201b9f_0.conda",
+    "md5": "32feaa8872e9a7c839069a0c2a37df20",
+    "sha256": "7f90427c984b96deda664a993dcda120490c955c2298cdffc9860f20f7caf1e0",
+    "license": "MIT"
+  },
+  {
+    "name": "libzlib",
+    "version": "1.3.1",
+    "build": "h02ab6af_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/libzlib-1.3.1-h02ab6af_0.conda",
+    "md5": "1e313539489432d5edd44efbec8a4d53",
+    "sha256": "0478d0e08e9737e6680343cd26380d8faf4f038bb59170818868cd2fb69e5481",
+    "license": "Zlib"
+  },
+  {
+    "name": "lz4-c",
+    "version": "1.9.4",
+    "build": "h2bbff1b_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.9.4-h2bbff1b_1.conda",
+    "md5": "723e3ccd4ef7c58ddbfeebe69abff662",
+    "sha256": "0e848b5004a9dc7a06f459cc67c404d7fb0321bf134ec7512815afafe97960b4",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "matplotlib-base",
+    "version": "3.10.6",
+    "build": "py313h26e45b9_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/matplotlib-base-3.10.6-py313h26e45b9_1.conda",
+    "md5": "3667cd20962641982be1dd4a5ba91d16",
+    "sha256": "7ce7c910df3aa1bdbd40bf28d37b8cf1f583696f3a776882309680dd8ceb9c88",
+    "license": "LicenseRef-PSF-based"
+  },
+  {
+    "name": "mkl",
+    "version": "2025.0.0",
+    "build": "h5da7b33_930",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl-2025.0.0-h5da7b33_930.conda",
+    "md5": "5db306ae419bcdc1f4c2d3ee71d364b4",
+    "sha256": "52ce207e7a88197b77698f63b114ea7eda53d6be3e84c188be875cef1c097414",
+    "license": "LicenseRef-IntelSimplifiedSoftwareOct2022"
+  },
+  {
+    "name": "mkl-service",
+    "version": "2.5.2",
+    "build": "py313h0b37514_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl-service-2.5.2-py313h0b37514_0.conda",
+    "md5": "de16142609f0894ac493b120d8dec242",
+    "sha256": "6b979218a0dc5e404c78944723ab540b909c3a195379aad28729210a72922b45",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "mkl_fft",
+    "version": "2.1.1",
+    "build": "py313hbc2a22c_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl_fft-2.1.1-py313hbc2a22c_0.conda",
+    "md5": "deba1937d3c5386a216e34aa54f22778",
+    "sha256": "983589256085b99e717d5ca9089717001981241f45227e7b05c46e0877b123fa",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "mkl_random",
+    "version": "1.3.0",
+    "build": "py313h42c1672_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl_random-1.3.0-py313h42c1672_0.conda",
+    "md5": "eb4b9cc1ef6dfb0f5760252e8859e4cb",
+    "sha256": "ec204c594e518acba0f328a57eb821551b1e6698a5acb06cd44f8292c24cec66",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "numexpr",
+    "version": "2.14.1",
+    "build": "py313h7660c64_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/numexpr-2.14.1-py313h7660c64_0.conda",
+    "md5": "7114ad2c73a926c8d243a67ef88f7913",
+    "sha256": "bb18967ac493da658ab12e7ab4b5b84291e2cb15f00da31ccc4437a43fd9f16f",
+    "license": "MIT"
+  },
+  {
+    "name": "numpy",
+    "version": "2.3.5",
+    "build": "py313h050da96_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-2.3.5-py313h050da96_0.conda",
+    "md5": "25ceaa85e0b325cffa10d480a7a72835",
+    "sha256": "659f513d0a6212f362994df5076dd7e6030069d9dc07dd91cd209598152d272e",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "numpy-base",
+    "version": "2.3.5",
+    "build": "py313h1e017a8_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-base-2.3.5-py313h1e017a8_0.conda",
+    "md5": "b0e5e901629af3a4f1a69817daf79ce7",
+    "sha256": "985c1e9efe4da1f94d4373e84cde4d60a6b93221f5f556a29dc49e1c653e8fd0",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "openssl",
+    "version": "3.0.18",
+    "build": "h543e019_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-3.0.18-h543e019_0.conda",
+    "md5": "d68f698bb2e9ea94b2db5b6d00b3eae5",
+    "sha256": "ccf96c9ffe36ba2a525b5834d4068b95da37db4d8d3a7dd492633a6e253e8189",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "packaging",
+    "version": "25.0",
+    "build": "py313haa95532_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/packaging-25.0-py313haa95532_1.conda",
+    "md5": "c67ee8fed5732098e4240761b614469f",
+    "sha256": "14b7628211cef4412c84f043aa333231fcffbd19b76d726bf4f5deb20167e729",
+    "license": "Apache-2.0 or BSD-2-Clause"
+  },
+  {
+    "name": "pandas",
+    "version": "2.3.3",
+    "build": "py313h42c1672_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/pandas-2.3.3-py313h42c1672_1.conda",
+    "md5": "a4dc478cbfd748f95781786c7afa54ce",
+    "sha256": "293ac4e5f37153dda3912dd07780ed33f09136072a1c412717de71b5a6961ba4",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "pcre2",
+    "version": "10.46",
+    "build": "h5740b90_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/pcre2-10.46-h5740b90_0.conda",
+    "md5": "ce7492b4ef08cfdeb0fc35ab5447ccf4",
+    "sha256": "d54ea3169c090404ca6d9d154adf842d61ca7a0bf1e277a10c02e245f186b934",
+    "license": "BSD-3-Clause WITH PCRE2-exception"
+  },
+  {
+    "name": "pillow",
+    "version": "12.0.0",
+    "build": "py313h4212202_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/pillow-12.0.0-py313h4212202_1.conda",
+    "md5": "19a3a4e5ac01ffe327bfddf0f08e1a0b",
+    "sha256": "2c386d756910ff372affd715d4f1977ca6e125480e1fa526397bfd423118b787",
+    "license": "HPND AND TCL"
+  },
+  {
+    "name": "pip",
+    "version": "25.3",
+    "build": "pyhc872135_0",
+    "subdir": "noarch",
+    "url": "https://repo.anaconda.com/pkgs/main/noarch/pip-25.3-pyhc872135_0.conda",
+    "md5": "f713912a259ec613b3832c3bc842e9d4",
+    "sha256": "7f202833777e8b2ab96c154db1fac0e82d0ee004f4ec9460ba99e1d3f64c7e6a",
+    "license": "MIT"
+  },
+  {
+    "name": "pixman",
+    "version": "0.46.4",
+    "build": "h4043f72_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/pixman-0.46.4-h4043f72_0.conda",
+    "md5": "870350c7155633ae34d27cda82099b73",
+    "sha256": "a2dfe6fec6464394a4f87a29762bbeb23ebc88f882b7adc4740a5338a64f4308",
+    "license": "MIT"
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.2.5",
+    "build": "py313haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/pyparsing-3.2.5-py313haa95532_0.conda",
+    "md5": "fd0174b1445591b1e4b4dd3e6f8e98ca",
+    "sha256": "0e9378e467e8dcc1851518cccdb6cc8540b2e9dc40fd1cd79214cae6df986c5d",
+    "license": "MIT"
+  },
+  {
+    "name": "python",
+    "version": "3.13.9",
+    "build": "h260b955_100_cp313",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.13.9-h260b955_100_cp313.conda",
+    "md5": "bbeee794f5eb1b9c2afc525bd17a5573",
+    "sha256": "64e62f9b86e32a30fdb437738c7b907794359909112ca03af6392ed9f8873202",
+    "license": "PSF-2.0"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0post0",
+    "build": "py313haa95532_2",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/python-dateutil-2.9.0post0-py313haa95532_2.conda",
+    "md5": "43a3d00b9e02e3dea2bdcfec026286ac",
+    "sha256": "76a01e3051b5ff8157a5018de495b6f1ca1adaf8854c984a15bb59c7940f1a09",
+    "license": "BSD-3-Clause and Apache-2.0"
+  },
+  {
+    "name": "python-tzdata",
+    "version": "2025.2",
+    "build": "pyhd3eb1b0_0",
+    "subdir": "noarch",
+    "url": "https://repo.anaconda.com/pkgs/main/noarch/python-tzdata-2025.2-pyhd3eb1b0_0.conda",
+    "md5": "5ac858f05dbf9d3cdb04d53516901247",
+    "sha256": "20bc1f87925d5a4a643fe3cd5ed97f8867238a2b25db976463d911ee5df4ff01",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "python_abi",
+    "version": "3.13",
+    "build": "2_cp313",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/python_abi-3.13-2_cp313.conda",
+    "md5": "af2c10f863ef4bd4a653746eaf149973",
+    "sha256": "838e5856d063d9d2764ede4553a7eb2c561ac05e4083ef5340ef1b0eb71a7b84",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "pytz",
+    "version": "2025.2",
+    "build": "py313haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/pytz-2025.2-py313haa95532_0.conda",
+    "md5": "cbefc0ca3b6360a0896c0b737ce7e0bc",
+    "sha256": "89418c34436a3b795609dd7412261178afbda3ee8ec9dc16e53c18363283c592",
+    "license": "MIT"
+  },
+  {
+    "name": "setuptools",
+    "version": "80.9.0",
+    "build": "py313haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/setuptools-80.9.0-py313haa95532_0.conda",
+    "md5": "be31889c40b8d7d5aecaa3f88b386a7a",
+    "sha256": "39cf370a1411f140a3e5890e94006d766672abe4645ac43353dc7c1b4cbf0369",
+    "license": "MIT"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "build": "py313haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/six-1.17.0-py313haa95532_0.conda",
+    "md5": "e7fc4d83bea7ee99038d43c773df475f",
+    "sha256": "fe16c893061086d4882b77d91b95efa937a831ce78bd3eb17cb18c99539b8232",
+    "license": "MIT"
+  },
+  {
+    "name": "sqlite",
+    "version": "3.51.0",
+    "build": "hda9a48d_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.51.0-hda9a48d_0.conda",
+    "md5": "84ab41899e5cf15f983255366b6e2d8e",
+    "sha256": "7ad40b29205c91d5862535994666f456b6423e00763fd13e8e5a424748d42a48",
+    "license": "blessing"
+  },
+  {
+    "name": "tbb",
+    "version": "2022.0.0",
+    "build": "h214f63a_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/tbb-2022.0.0-h214f63a_0.conda",
+    "md5": "2c07cbaecbb2d7149e70844e9a4490d5",
+    "sha256": "81a2670df558f8bf4e219bddcc6b8fa04b510778ce5e038b61c279818522d0dc",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "tbb-devel",
+    "version": "2022.0.0",
+    "build": "h214f63a_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/tbb-devel-2022.0.0-h214f63a_0.conda",
+    "md5": "2922c9f8b516a122423391ae86d3a2ff",
+    "sha256": "29c9f7047ff0830c0de05d17966ad0d284a84752dc8155b223c1f4cf5854f346",
+    "license": ""
+  },
+  {
+    "name": "tk",
+    "version": "8.6.15",
+    "build": "hf199647_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/tk-8.6.15-hf199647_0.conda",
+    "md5": "ddff7b6a72958ef802f40a735e505474",
+    "sha256": "2f7e9d06b513bcabce6d9ae195e45ccf94fd249edfefc591a5430a9f6f92a7fa",
+    "license": "TCL"
+  },
+  {
+    "name": "tzdata",
+    "version": "2025b",
+    "build": "h04d1e81_0",
+    "subdir": "noarch",
+    "url": "https://repo.anaconda.com/pkgs/main/noarch/tzdata-2025b-h04d1e81_0.conda",
+    "md5": "1d027393db3427ab22a02aa44a56f143",
+    "sha256": "3c9fefdfb2335e8641642e964cfaf20513d40ec709ab559b47b52d99b2e46fea",
+    "license": "CC-PDDC OR BSD-3-Clause"
+  },
+  {
+    "name": "ucrt",
+    "version": "10.0.22621.0",
+    "build": "haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/ucrt-10.0.22621.0-haa95532_0.conda",
+    "md5": "15e1b10231d7d236520501fcfb440f31",
+    "sha256": "9dfca4fb23f20e62a48b9c52e2fdf4d0d34bb31eb6a930c2195fcd10651b3cc3",
+    "license": "LicenseRef-MicrosoftWindowsSDK10"
+  },
+  {
+    "name": "vc",
+    "version": "14.42",
+    "build": "haa95532_5",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/vc-14.42-haa95532_5.conda",
+    "md5": "398668823dc0d65fb53f81decb9dee60",
+    "sha256": "457b5b07b27909a08365c58eec3d1d4febda3fc7a2d8a39bcf8913a90fe42025",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "vc14_runtime",
+    "version": "14.44.35208",
+    "build": "h4927774_10",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/vc14_runtime-14.44.35208-h4927774_10.conda",
+    "md5": "13296ea2847729c01c316b089cb28337",
+    "sha256": "747f5d55439e327d3b035c0078be59991ffa5683542fbcecbcc6abcfff50588a",
+    "license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime"
+  },
+  {
+    "name": "vs2015_runtime",
+    "version": "14.44.35208",
+    "build": "ha6b5a95_10",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/vs2015_runtime-14.44.35208-ha6b5a95_10.conda",
+    "md5": "58665d8e606897afb52a202669673c40",
+    "sha256": "fa731e65f9c6b7b9559cb93653d067658594f39d2bc5c75cae85ac2385d79d06",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "wheel",
+    "version": "0.45.1",
+    "build": "py313haa95532_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/wheel-0.45.1-py313haa95532_0.conda",
+    "md5": "1eee23a0c96246f29b008521ca706bbe",
+    "sha256": "89950cfd3155a0d817b4d7b8957c741e90455626d0cb2f0adae543bc972a6df9",
+    "license": "MIT"
+  },
+  {
+    "name": "xz",
+    "version": "5.6.4",
+    "build": "h4754444_1",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/xz-5.6.4-h4754444_1.conda",
+    "md5": "6036999a3a2c7a3e3739d6b9351fcb0b",
+    "sha256": "767a18adef86909bb374379add4784879d950a49ce2f7502444fd177b43fae33",
+    "license": "LGPL-2.1-or-later and GPL-2.0-or-later and 0BSD"
+  },
+  {
+    "name": "zlib",
+    "version": "1.3.1",
+    "build": "h02ab6af_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/zlib-1.3.1-h02ab6af_0.conda",
+    "md5": "4db9b3fbefe915ffb9eef8c812a98c6a",
+    "sha256": "116120d38011eea43cbeeb70e00b0eaa3b1c0a3f470df09aadb0d0b66aebbf60",
+    "license": "Zlib"
+  },
+  {
+    "name": "zstd",
+    "version": "1.5.7",
+    "build": "h56299aa_0",
+    "subdir": "win-64",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/zstd-1.5.7-h56299aa_0.conda",
+    "md5": "fd829528313216f62505dd7a281230ea",
+    "sha256": "c822ed29c20166934ef9c9e29b863bc382b2c3c602ac1f3a62e9af2c0495a74c",
+    "license": "BSD-3-Clause AND GPL-2.0-or-later"
+  }
+]

@@ -1,0 +1,5 @@
+# Plotting uses explicitly separated, verified runtimes.
+# This legacy entry point intentionally installs nothing into the analysis env.
+# See README.md here and ../environments/README.md.
+# Figures 3-6: ../environments/figures-win-64.explicit.txt (Conda exact builds).
+# Figure 2: ../environments/figure2-pip-win64.lock.txt (hashed wheel in a target directory).

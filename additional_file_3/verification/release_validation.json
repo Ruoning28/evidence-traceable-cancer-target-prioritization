@@ -1,0 +1,127 @@
+{
+  "release_date": "2026-10-17",
+  "scope": "Code environment/command/package repair; no scientific formula changes or full model refits.",
+  "manuscript_pdf_sha256": "f2d41aa3c37f44e4822b4ffe67129e9ffa72c6367a38fc1cf7c489741e0ea1d6",
+  "environment_rebuild": {
+    "platform": "Windows x86-64",
+    "conda_lock_packages": 72,
+    "fresh_prefix_matches_versions_and_builds": true,
+    "figure2_wheel_hash_checked": true
+  },
+  "verified_runtime_profiles": {
+    "figure2": {
+      "python": "3.13.9",
+      "platform": "win32",
+      "matplotlib": "3.10.0",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "freetype": "2.6.1",
+      "freetype_build": "local",
+      "arial_sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1"
+    },
+    "figures3_6": {
+      "python": "3.13.9",
+      "platform": "win32",
+      "matplotlib": "3.10.6",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "freetype": "2.13.3",
+      "freetype_build": "system",
+      "arial_sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1"
+    }
+  },
+  "figure_pixel_checks": [
+    {
+      "figure": 2,
+      "pixel_size": [
+        2255,
+        1611
+      ],
+      "different_pixels": 0,
+      "native_content_hash_matches": true,
+      "rgb_hash_matches": true
+    },
+    {
+      "figure": 3,
+      "pixel_size": [
+        2205,
+        829
+      ],
+      "different_pixels": 0,
+      "native_content_hash_matches": true,
+      "rgb_hash_matches": true
+    },
+    {
+      "figure": 4,
+      "pixel_size": [
+        2205,
+        886
+      ],
+      "different_pixels": 0,
+      "native_content_hash_matches": true,
+      "rgb_hash_matches": true
+    },
+    {
+      "figure": 5,
+      "pixel_size": [
+        2254,
+        1800
+      ],
+      "different_pixels": 0,
+      "native_content_hash_matches": true,
+      "rgb_hash_matches": true
+    },
+    {
+      "figure": 6,
+      "pixel_size": [
+        2207,
+        1697
+      ],
+      "different_pixels": 0,
+      "native_content_hash_matches": true,
+      "rgb_hash_matches": true
+    }
+  ],
+  "individual_commands": [
+    {
+      "figure": 2,
+      "exit_code": 0,
+      "one_figure_output": true,
+      "drawing_stream_matches_article": true
+    },
+    {
+      "figure": 3,
+      "exit_code": 0,
+      "one_figure_output": true,
+      "drawing_stream_matches_article": true
+    },
+    {
+      "figure": 4,
+      "exit_code": 0,
+      "one_figure_output": true,
+      "drawing_stream_matches_article": true
+    },
+    {
+      "figure": 5,
+      "exit_code": 0,
+      "one_figure_output": true,
+      "drawing_stream_matches_article": true
+    },
+    {
+      "figure": 6,
+      "exit_code": 0,
+      "one_figure_output": true,
+      "drawing_stream_matches_article": true
+    }
+  ],
+  "runtime_mismatch_guard": {
+    "nonzero_exit": true,
+    "reports_profile_mismatch": true,
+    "no_figure_written": true
+  },
+  "original_analysis_scripts_unchanged": true,
+  "drawing_functions_unchanged": true,
+  "analysis_inputs_179_hashes_match": true,
+  "full_model_refit_performed": false,
+  "remote_repository_verified": false
+}

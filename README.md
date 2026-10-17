@@ -1,8 +1,16 @@
-﻿# Evidence-traceable cancer target prioritization framework
+# Evidence-traceable cancer target prioritization framework
 
 This repository contains the analysis code for the manuscript:
 
 **An evidence-traceable framework for cancer therapeutic target assessment and prioritization from public multi-source data**
+
+## Current revised manuscript code (17 October 2026)
+
+The audited code for the revised manuscript is in **[additional_file_3/](additional_file_3/README.md)**. Download the corresponding **[Additional_file_3.zip](releases/Additional_file_3.zip)**; its [SHA-256 checksum](releases/Additional_file_3.zip.sha256) and internal file manifest preserve the verified submission bytes.
+
+Use the [revised analysis instructions](additional_file_3/README.md) and [locked figure-reproduction instructions](additional_file_3/figure_code/README.md), with Additional file 2 supplied separately. The rendering profile is Windows x86-64 with the documented Arial/font/build fingerprints. Its validation does not represent a new full-model refit.
+
+See [the comparison with the original repository](docs/ADDITIONAL_FILE_3_COMPARISON.md) for parameter, pipeline, validation and environment differences. The original source-layout instructions, manifests and previews below remain for historical comparison; follow one complete layout and its matching configuration.
 
 ## Overview
 
