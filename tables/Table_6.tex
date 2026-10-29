@@ -1,0 +1,19 @@
+% 中文译文：来源用途检查及信息重叠情况。
+\begin{table}[!tbp]
+\centering\small
+\caption{Source-role checks and residual overlap.}\label{tab:source-role-controls}
+\begin{tabularx}{\textwidth}{p{.24\textwidth}YY}\toprule
+% 中文译文：来源或条件；检查方法；结果范围。
+Source/condition & Implemented check & Interpretation \\ \midrule
+% 中文译文：药物及临床记录：按轴排除直接特征，建模与基准标签记录分开；复合可药性保留的治疗注释按各项分析的实际清单说明。
+Drug and clinical records & Axis-specific direct-feature exclusions and disjoint label records. & Therapeutic annotations retained in composite druggability follow the analysis-specific input lists. \\
+% 中文译文：依赖来源标签：15个LUAD开发和15个基准标签来自同一次Top-30选择；这一出处对应功能基准中的特定子集。
+Dependency-derived labels & 15 LUAD development and 15 benchmark genes share one Top-30 construction. & Subset selection is shared; not all functional benchmarks have this origin. \\
+% 中文译文：衍生复合特征：来源记录表列出组成项及已核实的复用路径，用于追踪复合指标中保留的信息。
+Composite descendants & Components and verified reuse paths documented in the source ledger. & Tracks information retained in composite features. \\
+% 中文译文：文献和样本：记录PMID关联组、模型/患者身份及重叠表；相关事实可能分布在不同研究组。
+Literature and samples & PMID-linked components, model/patient identity and overlap ledgers. & Correlated facts can span the recorded study groups. \\
+% 中文译文：获取与筛选记录：数据库发行版、文件标识和基准筛选方案用于确定证据快照；具体来源记录和时间信息见补充S8。
+Acquisition and selection records & Resource releases, file identifiers and benchmark selection protocol. & Snapshot and chronology details are documented in Supplement S8. \\
+\bottomrule\end{tabularx}
+\end{table}

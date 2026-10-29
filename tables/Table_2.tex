@@ -1,0 +1,23 @@
+% 中文译文：输入资料及其来源用途。
+\begin{table}[!tbp]
+\centering\small
+\caption{Input data types and source roles.}\label{tab:input-data-types}
+\begin{tabularx}{\textwidth}{p{.25\textwidth}p{.12\textwidth}Y}\toprule
+% 中文译文：输入类型；用途；表示方式及使用方法。
+Input type & Roles & Representation and use \\ \midrule
+% 中文译文：患者分子资料：用于构建特征F，包括病种相关表达、分子改变和疾病支持。
+Patient molecular evidence & $F$ & Cancer-specific expression, alteration and disease-support features. \\
+% 中文译文：蛋白资料：用于特征F，并保留蛋白/转录来源及缺失时的回退路径。
+Protein evidence & $F$ & Protein/transcript support with verified source and fallback paths. \\
+% 中文译文：功能测量：用于特征F、建模正例L或基准V，按来源记录其依赖性及标签用途。
+Functional measurements & $F,L,V$ & Dependency features and source-specific development/benchmark roles. \\
+% 中文译文：治疗知识：可用于F、L、V、A，记录药物/临床角色，按规定信息范围建模并补充背景解释。
+Therapeutic knowledge & $F,L,V,A$ & Drug/clinical roles, constrained model permissions and contextual annotation. \\
+% 中文译文：可干预性和风险代理：用于F和A，既构成指定特征，也用于评分后的审核，并附实际测量信息。
+Tractability and risk proxies & $F,A$ & Configured features and post-model conditions, with observation metadata. \\
+% 中文译文：整理文献：用于L、V、A，记录证据用途、共同事实及选择时间所限定的范围。
+Curated literature & $L,V,A$ & Recorded evidence roles; shared facts and selection chronology qualified. \\
+\bottomrule\end{tabularx}
+% 中文译文：F表示特征，L表示建模标签，V表示留出基准，A表示模型后背景注释。同一来源用于多个环节时，检查记录分离及其允许提供的信息。
+\parbox{\textwidth}{\footnotesize $F$: feature; $L$: development label; $V$: held-out benchmark; $A$: post-model annotation. Multiple roles require record and source-permission checks.}
+\end{table}

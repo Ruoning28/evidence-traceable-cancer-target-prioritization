@@ -1,0 +1,10 @@
+﻿heldout_source	axis	status	reason	excluded_features	n_heldout_targets	top20_recovery	enrichment_top20_over_random	precision_at_20	top50_recovery	enrichment_top50_over_random	precision_at_50	top100_recovery	enrichment_top100_over_random	precision_at_100	top200_recovery	enrichment_top200_over_random	precision_at_200	median_rank_percentile	mean_rank_percentile	cancer
+known_biomarker	translational	ESTIMATED		clinical_precedence_score	5.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.9266568120226656	0.915338753387534	PDAC
+known_direct_drug	translational	ESTIMATED		chemical_modulation_score;clinical_precedence_score	4.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0482261640798226	0.0823478689332347	PDAC
+curated_literature:Nwosu2025	functional	ESTIMATED		external_reproducibility_score	8.0	0.0	0.0	0.0	0.125	101.4775	0.02	0.125	50.73875	0.01	0.125	25.369375	0.005	0.9181079083518108	0.9152623798965264	PDAC
+curated_literature:OpenTargets2025	functional	ESTIMATED		opentargets_overall_score	6.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.4335427445183543	0.4705346144370534	PDAC
+curated_literature:SLC2025	functional	ESTIMATED		external_reproducibility_score	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.94060113328406	0.94060113328406	PDAC
+known_dependency	functional	ESTIMATED		dependency_score	5.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.9165065287016506	0.8124168514412416	PDAC
+known_pdac_driver	functional	ESTIMATED		patient_alteration_score;tcga_cnv_score;tcga_mutation_score	3.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.763020448386302	0.7852098217951876	PDAC
+depmap_luad_high_dependency	functional	ESTIMATED		dependency_score;external_reproducibility_score	15.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.2669898807678214	0.2899136529770462	LUAD
+tcga_luad_nature_2014	functional	ESTIMATED		patient_alteration_score;tcga_cnv_score;tcga_gtex_expression_score;tcga_mutation_score;tcga_survival_score	11.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.5001550300194493	0.5264486338139691	LUAD

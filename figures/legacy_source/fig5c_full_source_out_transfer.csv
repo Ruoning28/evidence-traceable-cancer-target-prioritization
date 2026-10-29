@@ -1,0 +1,12 @@
+﻿heldout_source,axis,status,reason,excluded_features,n_heldout_targets,top20_recovery,enrichment_top20_over_random,precision_at_20,top50_recovery,enrichment_top50_over_random,precision_at_50,top100_recovery,enrichment_top100_over_random,precision_at_100,top200_recovery,enrichment_top200_over_random,precision_at_200,median_rank_percentile,mean_rank_percentile,cancer
+known_biomarker,translational,ESTIMATED,,clinical_precedence_score,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9060852426706084,0.8944469081054447,PDAC
+known_direct_drug,translational,ESTIMATED,,chemical_modulation_score;clinical_precedence_score,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0066765213106676,0.0487188962798719,PDAC
+curated_literature:Nwosu2025,functional,ESTIMATED,,external_reproducibility_score,8.0,0.0,0.0,0.0,0.125,101.4775,0.02,0.125,50.73875,0.01,0.125,25.369375,0.005,0.914079822616408,0.9208918452820892,PDAC
+curated_literature:OpenTargets2025,functional,ESTIMATED,,opentargets_overall_score,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4357846760285785,0.4711341052804467,PDAC
+curated_literature:SLC2025,functional,ESTIMATED,,external_reproducibility_score,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9397018970189702,0.9397018970189702,PDAC
+known_dependency,functional,ESTIMATED,,dependency_score,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9261887164326188,0.8898989898989899,PDAC
+known_pdac_driver,functional,ESTIMATED,,patient_alteration_score;tcga_cnv_score;tcga_mutation_score,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.7585365853658537,0.7822041553748871,PDAC
+luad_actionable_anchor,translational,NOT_ESTIMABLE,fewer than two positives remain,,,,,,,,,,,,,,,,,LUAD
+depmap_luad_high_dependency,functional,ESTIMATED,,dependency_score;external_reproducibility_score,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3185725963300166,0.3951236012064154,LUAD
+tcga_luad_nature_2014,functional,ESTIMATED,,patient_alteration_score;tcga_cnv_score;tcga_gtex_expression_score;tcga_mutation_score;tcga_survival_score,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3314259943061701,0.4656384289949697,LUAD
+

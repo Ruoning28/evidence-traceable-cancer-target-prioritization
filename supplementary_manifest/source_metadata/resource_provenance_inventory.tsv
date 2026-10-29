@@ -1,0 +1,20 @@
+resource	version_or_identity_status	role	original_access_date_status
+DepMap	Public 26Q1; DEMETER2 v6 where used	Lineage dependency, background observation and original dependency-derived labels	2026-06-08
+ChEMBL	37	Chemical modulation and target annotation	2026-06-08
+GTEx	v10	PDAC expression contrast and normal-expression proxy; LUAD named tcga_gtex field has another source	2026-06-08
+gnomAD	v4.1.1	Constraint proxy; fixed raw resource restored and hashed	2026-06-08
+STRING	v12	Retained network resource and structural-learning diagnostic	2026-06-08
+TCGA/GDC/cBioPortal	Cancer/project identifiers recorded; dataset release unverified	Cancer-specific expression, alterations and related local source composites	PDAC: 2026-06-08; LUAD: 2026-06-22
+CPTAC/LinkedOmics	Cancer-specific cohort/mirror paths recorded; dataset release unverified	Protein and transcript evidence with documented fallback routes	PDAC: 2026-06-08; LUAD: 2026-06-22
+GEO	Series accessions recorded; download release unverified	PDAC cross-cohort expression support	2026-06-08
+Open Targets	Platform dataset release unverified; API/v4 is an interface version	Target annotation and curated label roles; some LUAD fallback metadata	PDAC: 2026-06-08; LUAD: 2026-06-22
+DrugCentral	Target-interaction endpoint 2021_09_01; approval-export release not recorded; files identified by SHA-256	Clinical/chemical target annotation	2026-06-08
+DGIdb	Dataset release unverified	Clinical/chemical target annotation	2026-06-08
+IUPHAR/Guide to Pharmacology	2026.1; published 2026-03-12; target and interaction export headers	Approved-target and tractability annotation	2026-06-08
+TTD	10.1.01 (2024.01.10); target and drug export headers	Approved-target annotation	2026-06-08
+UniProt	Dataset release unverified	Target class and protein annotation inputs	2026-06-08
+Human Protein Atlas	Configured page-version clue 25.1; actual downloaded release unverified	Retained source intake; field use follows the builder, not the configuration alone	2026-06-08
+Reactome	Dataset release unverified	Retained pathway/source intake; not evidence of additional ranking supervision	2026-06-08
+BioGRID	5.0.258; human archive member filename	Retained network/source intake	2026-06-08
+DrugBank	Licensed input unavailable in the retained analysis	Licensed resource unavailable; unused in the retained model	UNKNOWN unless explicitly established by a retained acquisition record; subsequent retrieval is a separate date
+ClinicalTrials.gov/PubMed/PMC	Dated subsequent snapshots in clinical and functional ledgers	Post-model context and exploratory evidence curation; not original feature access dates	UNKNOWN unless explicitly established by a retained acquisition record; subsequent retrieval is a separate date

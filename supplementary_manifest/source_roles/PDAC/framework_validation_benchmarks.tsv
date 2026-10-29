@@ -1,0 +1,44 @@
+gene_symbol	source	source_group	label_type	priority_axis	is_positive	is_validation_source	notes	axis	record_role	split_reason	record_id
+BRCA1	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|BRCA1
+MLH1	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|MLH1
+MSH6	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|MSH6
+NTRK2	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|NTRK2
+PALB2	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|PALB2
+EGFR	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|EGFR
+ERBB2	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|ERBB2
+NTRK2	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|NTRK2
+PARP2	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|PARP2
+KRAS	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; KRAS G12C sotorasib clinical target from PMID36546651	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|KRAS
+NRG1	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; NRG1 fusion clinical selection target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|NRG1
+ERBB2	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; zenocutuzumab HER2 target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|ERBB2
+ERBB3	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; zenocutuzumab HER3 target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|ERBB3
+CDS2	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	context-specific dependency; not expected to be universal clinical top target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CDS2
+CEACAM5	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CEACAM5
+CEACAM6	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CEACAM6
+CLDN18	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CLDN18
+GPRC5A	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|GPRC5A
+KRAS	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	benchmark positive/control; core driver and dependency axis	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|KRAS
+MSLN	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|MSLN
+MUC1	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|MUC1
+PPP2CA	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark; possible high safety risk	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|PPP2CA
+PPP2CB	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|PPP2CB
+TACSTD2	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|TACSTD2
+TM4SF1	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|TM4SF1
+VPS4A	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|VPS4A
+VPS4B	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|VPS4B
+AURKA	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer control recovered by proposed model	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|AURKA
+AURKB	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|AURKB
+CDK1	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer dependency; high safety risk expected	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|CDK1
+CDK2	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|CDK2
+EGFR	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer druggable control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|EGFR
+ERBB2	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer druggable control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|ERBB2
+MCM4	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	discovery/dependency control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|MCM4
+PSMA4	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	discovery/dependency control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|PSMA4
+PSMB3	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	discovery/dependency control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|PSMB3
+TOP2A	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer dependency; safety-aware downranking expected	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|TOP2A
+PSMA6	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; PSMA6 CRISPR/siRNA survival target from PMID30898113	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|PSMA6
+PKMYT1	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; PKMYT1 CRISPR and pharmacologic target from PMID38570712	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|PKMYT1
+RUNX1	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; RUNX1 inhibition target from PMID35197278	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|RUNX1
+ISG15	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; ISG15/HMGCR synthetic-lethal target from PMID41366470	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|ISG15
+HMGCR	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; ISG15/HMGCR synthetic-lethal target from PMID41366470	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|HMGCR
+XRCC1	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; XRCC1 BER sensitizer target from PMID26602448	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|XRCC1

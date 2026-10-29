@@ -1,0 +1,27 @@
+% 中文译文：全部八检验多重校正的置换汇总。
+\begin{table}[!tbp]
+\centering\small
+\caption{Permutation summaries with all-eight multiplicity adjustment.}\label{tab:validation-summary}
+\begin{tabularx}{\textwidth}{p{.20\textwidth}p{.12\textwidth}YYYY}\toprule
+% 中文译文：设置；零假设；观测；零均值；原始P；Holm P
+Setting & Null & Observed & Null mean & Raw $P$ & Holm $P$ \\ \midrule
+% 中文译文：PDAC转化均匀抽取伪正例的零假设：观测召回率0.364，置换均值0.013，原始P=0.00200，全部八检验Holm P=0.01597。
+PDAC Trans. & Uniform & 0.364 & 0.013 & 0.00200 & 0.01597 \\
+% 中文译文：PDAC转化按覆盖程度匹配伪正例的零假设：观测召回率0.364，置换均值0.020，原始P=0.00200，全部八检验Holm P=0.01597。
+PDAC Trans. & Coverage & 0.364 & 0.020 & 0.00200 & 0.01597 \\
+% 中文译文：PDAC功能均匀抽取伪正例的零假设：观测召回率0.133，置换均值0.013，原始P=0.00599，全部八检验Holm P=0.02994。
+PDAC Func. & Uniform & 0.133 & 0.013 & 0.00599 & 0.02994 \\
+% 中文译文：PDAC功能按覆盖程度匹配伪正例的零假设：观测召回率0.133，置换均值0.018，原始P=0.02395，全部八检验Holm P=0.07186。
+PDAC Func. & Coverage & 0.133 & 0.018 & 0.02395 & 0.07186 \\
+% 中文译文：LUAD转化均匀抽取伪正例的零假设：观测召回率0.571，置换均值0.021，原始P=0.00200，全部八检验Holm P=0.01597。
+LUAD Trans. & Uniform & 0.571 & 0.021 & 0.00200 & 0.01597 \\
+% 中文译文：LUAD转化按覆盖程度匹配伪正例的零假设：观测召回率0.571，置换均值0.022，原始P=0.00599，全部八检验Holm P=0.02994。
+LUAD Trans. & Coverage & 0.571 & 0.022 & 0.00599 & 0.02994 \\
+% 中文译文：LUAD功能均匀抽取伪正例的零假设：观测召回率0.056，置换均值0.008，原始P=0.04990，全部八检验Holm P=0.07186。
+LUAD Func. & Uniform & 0.056 & 0.008 & 0.04990 & 0.07186 \\
+% 中文译文：LUAD功能按覆盖程度匹配伪正例的零假设：观测召回率0.056，置换均值0.006，原始P=0.02595，全部八检验Holm P=0.07186。
+LUAD Func. & Coverage & 0.056 & 0.006 & 0.02595 & 0.07186 \\
+\bottomrule\end{tabularx}
+% 中文译文：每类零假设500次置换，每次30次重新拟合。每种零假设下四项检验的校正及固定排序下的召回区间见补充S1—S2。
+\parbox{\textwidth}{\footnotesize Each null uses 500 permutations and 30 refits per permutation. Within-null four-test corrections and conditional recovery intervals are in Supplement S1--S2.}
+\end{table}

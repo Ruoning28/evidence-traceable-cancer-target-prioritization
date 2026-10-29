@@ -1,0 +1,30 @@
+gene_symbol	clinical_positive	discovery_positive	positive_source_count	clinical_sources	discovery_sources	heldout_eligible_sources
+ALK	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+BRAF	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+CDC27	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+DCAF13	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+EGFR	1	0	1	luad_actionable_anchor		luad_actionable_anchor
+ERBB2	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+HSPE1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+KRAS	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+MET	1	1	2	luad_actionable_anchor	tcga_luad_nature_2014	luad_actionable_anchor;tcga_luad_nature_2014
+NRAS	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+NTRK1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+PCNA	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PRELID1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PSMA3	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+PUF60	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RBM10	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+RET	1	0	1	luad_actionable_anchor		luad_actionable_anchor
+RIT1	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+ROS1	1	0	1	luad_actionable_anchor		luad_actionable_anchor
+RPL12	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL17	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL23	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPL4	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RPS3A	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+RRM1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SMARCA4	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014
+SMU1	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+SNRPD3	0	1	1		depmap_luad_high_dependency	depmap_luad_high_dependency
+TP53	0	1	1		tcga_luad_nature_2014	tcga_luad_nature_2014

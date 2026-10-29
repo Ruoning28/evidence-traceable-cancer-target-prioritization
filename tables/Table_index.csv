@@ -1,0 +1,10 @@
+number,caption,manuscript_page,source_file
+1,Published target-assessment resources and the scope of this workflow,3,framework_comparison_table_fixed.tex
+2,Input data types and source roles,6,table_input_roles.tex
+3,Operational six-class review rules,16,table_decision_rules.tex
+4,Primary numerical and review settings,24,table3_fixed_settings.tex
+5,Cancer-specific evidence definitions,24,table4_cancer_specific_inputs.tex
+6,Source-role checks and residual overlap,28,table9_source_role_controls.tex
+7,Reference operational class distribution,31,table5_review_class_sizes.tex
+8,Permutation summaries with all-eight multiplicity adjustment,35,table7_validation_summary.tex
+9,Top-50 recovery and comparator information permissions,37,table6_comparator_results.tex

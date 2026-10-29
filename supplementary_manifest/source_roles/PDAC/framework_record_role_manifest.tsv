@@ -1,0 +1,122 @@
+gene_symbol	source	source_group	label_type	priority_axis	is_positive	is_validation_source	notes	axis	record_role	split_reason	record_id
+BRCA1	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|BRCA1
+BRCA2	known_biomarker	biomarker	known_target	clinical	1	1		translational	L	development positive-label record	known_biomarker|translational|BRCA2
+MLH1	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|MLH1
+MSH2	known_biomarker	biomarker	known_target	clinical	1	1		translational	L	development positive-label record	known_biomarker|translational|MSH2
+MSH6	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|MSH6
+NTRK1	known_biomarker	biomarker	known_target	clinical	1	1		translational	L	development positive-label record	known_biomarker|translational|NTRK1
+NTRK2	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|NTRK2
+NTRK3	known_biomarker	biomarker	known_target	clinical	1	1		translational	L	development positive-label record	known_biomarker|translational|NTRK3
+PALB2	known_biomarker	biomarker	known_target	clinical	1	1		translational	V	held-out benchmark record	known_biomarker|translational|PALB2
+PMS2	known_biomarker	biomarker	known_target	clinical	1	1		translational	L	development positive-label record	known_biomarker|translational|PMS2
+BRAF	known_direct_drug	drug	known_target	clinical	1	1		translational	L	development positive-label record	known_direct_drug|translational|BRAF
+EGFR	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|EGFR
+ERBB2	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|ERBB2
+NTRK1	known_direct_drug	drug	known_target	clinical	1	1		translational	L	development positive-label record	known_direct_drug|translational|NTRK1
+NTRK2	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|NTRK2
+NTRK3	known_direct_drug	drug	known_target	clinical	1	1		translational	L	development positive-label record	known_direct_drug|translational|NTRK3
+PARP1	known_direct_drug	drug	known_target	clinical	1	1		translational	L	development positive-label record	known_direct_drug|translational|PARP1
+PARP2	known_direct_drug	drug	known_target	clinical	1	1		translational	V	held-out benchmark record	known_direct_drug|translational|PARP2
+KRAS	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; KRAS G12C sotorasib clinical target from PMID36546651	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|KRAS
+NRG1	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; NRG1 fusion clinical selection target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|NRG1
+ERBB2	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; zenocutuzumab HER2 target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|ERBB2
+ERBB3	expanded_literature:PDAC_translational	literature	expanded_literature	clinical	1	1	PDAC benchmark expansion; zenocutuzumab HER3 target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:PDAC_translational|translational|ERBB3
+CD19	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|CD19
+CDS2	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:guo2025|functional|CDS2
+CFLAR	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|CFLAR
+EGFR	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:guo2025|functional|EGFR
+GATA6	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|GATA6
+KRAS	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:guo2025|functional|KRAS
+MAT2A	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|MAT2A
+MTAP	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|MTAP
+PRMT5	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|PRMT5
+PTEN	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|PTEN
+RAS	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|RAS
+RBM47	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|RBM47
+SHOC2	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|SHOC2
+VPS4A	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:guo2025|functional|VPS4A
+VPS4B	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:guo2025|functional|VPS4B
+WRN	article_context_literature:guo2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:guo2025|functional|WRN
+BRD4	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:nwosu2025|functional|BRD4
+CDK4	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:nwosu2025|functional|CDK4
+CXCL17	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:nwosu2025|functional|CXCL17
+EGFR	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:nwosu2025|functional|EGFR
+GOT1	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:nwosu2025|functional|GOT1
+ICAM2	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:nwosu2025|functional|ICAM2
+ME1	article_context_literature:nwosu2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:nwosu2025|functional|ME1
+CDK9	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:savage2024|functional|CDK9
+GPS2	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:savage2024|functional|GPS2
+HDAC3	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:savage2024|functional|HDAC3
+IDH1	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:savage2024|functional|IDH1
+KRAS	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	benchmark gene embargoed from development labels	article_context_literature:savage2024|functional|KRAS
+PARP1	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:savage2024|functional|PARP1
+PGK1	article_context_literature:savage2024	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:savage2024|functional|PGK1
+DLX5	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|DLX5
+GRB10	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|GRB10
+SLC30A6	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SLC30A6
+SLC30A8	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SLC30A8
+SLC39A10	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SLC39A10
+SLC5A3	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SLC5A3
+SLC6A14	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SLC6A14
+SLC7A11	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SLC7A11
+SVOPL	article_context_literature:slc2025	literature	article_text_context	discovery	1	1		functional	A	interpretation-only or unused positive record	article_context_literature:slc2025|functional|SVOPL
+CDS2	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	context-specific dependency; not expected to be universal clinical top target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CDS2
+CEACAM5	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CEACAM5
+CEACAM6	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CEACAM6
+CLDN18	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|CLDN18
+GPRC5A	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|GPRC5A
+KRAS	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	benchmark positive/control; core driver and dependency axis	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|KRAS
+MSLN	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|MSLN
+MUC1	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|MUC1
+PPP2CA	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark; possible high safety risk	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|PPP2CA
+PPP2CB	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|PPP2CB
+TACSTD2	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|TACSTD2
+TM4SF1	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	surface/biomarker-like comparison target	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|TM4SF1
+VPS4A	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|VPS4A
+VPS4B	curated_literature:Guo2025	literature	curated_literature	discovery	1	1	dependency benchmark	functional	V	held-out benchmark record	curated_literature:Guo2025|functional|VPS4B
+CEACAM5	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark	functional	A	benchmark gene embargoed from development labels	curated_literature:Nwosu2025|functional|CEACAM5
+CEACAM6	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark	functional	A	benchmark gene embargoed from development labels	curated_literature:Nwosu2025|functional|CEACAM6
+COL10A1	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression/stromal benchmark	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|COL10A1
+CTSE	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|CTSE
+LAMB3	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|LAMB3
+LAMC2	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark; often biomarker-like	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|LAMC2
+S100P	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark; often biomarker-like	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|S100P
+SLC2A1	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark recovered by proposed model	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|SLC2A1
+SLC6A14	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark; transporter	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|SLC6A14
+TMPRSS4	curated_literature:Nwosu2025	literature	curated_literature	discovery	1	1	expression benchmark; often biomarker-like	functional	L	development positive-label record	curated_literature:Nwosu2025|functional|TMPRSS4
+BRCA1	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	biomarker not direct PDAC dependency	functional	L	development positive-label record	curated_literature:OpenTargets2025|functional|BRCA1
+BRCA2	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	biomarker not direct PDAC dependency	functional	L	development positive-label record	curated_literature:OpenTargets2025|functional|BRCA2
+CDKN2A	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	driver/biomarker-like; not necessarily actionable target	functional	L	development positive-label record	curated_literature:OpenTargets2025|functional|CDKN2A
+KRAS	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	broad platform positive control	functional	A	benchmark gene embargoed from development labels	curated_literature:OpenTargets2025|functional|KRAS
+PALB2	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	biomarker not direct PDAC dependency	functional	L	development positive-label record	curated_literature:OpenTargets2025|functional|PALB2
+SMAD4	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	driver/biomarker-like; not necessarily actionable target	functional	L	development positive-label record	curated_literature:OpenTargets2025|functional|SMAD4
+TP53	curated_literature:OpenTargets2025	literature	curated_literature	discovery	1	1	driver/biomarker-like; not necessarily actionable target	functional	L	development positive-label record	curated_literature:OpenTargets2025|functional|TP53
+SLC30A6	curated_literature:SLC2025	literature	curated_literature	discovery	1	1	transporter comparison target	functional	L	development positive-label record	curated_literature:SLC2025|functional|SLC30A6
+SLC39A10	curated_literature:SLC2025	literature	curated_literature	discovery	1	1	transporter comparison target	functional	L	development positive-label record	curated_literature:SLC2025|functional|SLC39A10
+AURKA	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer control recovered by proposed model	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|AURKA
+AURKB	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|AURKB
+CDK1	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer dependency; high safety risk expected	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|CDK1
+CDK2	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|CDK2
+EGFR	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer druggable control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|EGFR
+ERBB2	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer druggable control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|ERBB2
+MCM4	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	discovery/dependency control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|MCM4
+PSMA4	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	discovery/dependency control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|PSMA4
+PSMB3	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	discovery/dependency control	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|PSMB3
+TOP2A	curated_literature:Savage2024	literature	curated_literature	discovery	1	1	pan-cancer dependency; safety-aware downranking expected	functional	V	held-out benchmark record	curated_literature:Savage2024|functional|TOP2A
+ATR	known_dependency	dependency	known_target	discovery	1	1		functional	L	development positive-label record	known_dependency|functional|ATR
+AURKA	known_dependency	dependency	known_target	discovery	1	1		functional	A	benchmark gene embargoed from development labels	known_dependency|functional|AURKA
+AURKB	known_dependency	dependency	known_target	discovery	1	1		functional	A	benchmark gene embargoed from development labels	known_dependency|functional|AURKB
+CHEK1	known_dependency	dependency	known_target	discovery	1	1		functional	L	development positive-label record	known_dependency|functional|CHEK1
+CHEK2	known_dependency	dependency	known_target	discovery	1	1		functional	L	development positive-label record	known_dependency|functional|CHEK2
+PRMT5	known_dependency	dependency	known_target	discovery	1	1		functional	L	development positive-label record	known_dependency|functional|PRMT5
+WEE1	known_dependency	dependency	known_target	discovery	1	1		functional	L	development positive-label record	known_dependency|functional|WEE1
+CDKN2A	known_pdac_driver	driver	known_target	discovery	1	1		functional	L	development positive-label record	known_pdac_driver|functional|CDKN2A
+KRAS	known_pdac_driver	driver	known_target	discovery	1	1		functional	A	benchmark gene embargoed from development labels	known_pdac_driver|functional|KRAS
+SMAD4	known_pdac_driver	driver	known_target	discovery	1	1		functional	L	development positive-label record	known_pdac_driver|functional|SMAD4
+TP53	known_pdac_driver	driver	known_target	discovery	1	1		functional	L	development positive-label record	known_pdac_driver|functional|TP53
+PSMA6	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; PSMA6 CRISPR/siRNA survival target from PMID30898113	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|PSMA6
+PKMYT1	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; PKMYT1 CRISPR and pharmacologic target from PMID38570712	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|PKMYT1
+RUNX1	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; RUNX1 inhibition target from PMID35197278	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|RUNX1
+ISG15	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; ISG15/HMGCR synthetic-lethal target from PMID41366470	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|ISG15
+HMGCR	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; ISG15/HMGCR synthetic-lethal target from PMID41366470	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|HMGCR
+XRCC1	expanded_literature:PDAC_functional	literature	expanded_literature	discovery	1	1	PDAC benchmark expansion; XRCC1 BER sensitizer target from PMID26602448	functional	V	held-out benchmark record	expanded_literature:PDAC_functional|functional|XRCC1

@@ -1,4 +1,4 @@
-﻿cancer,quantity,count
+cancer,quantity,count
 PDAC,Candidate universe,40591
 PDAC,Translational L,7
 PDAC,Translational V,11
@@ -9,4 +9,3 @@ LUAD,Translational L,6
 LUAD,Translational V,7
 LUAD,Functional L,26
 LUAD,Functional V,36
-

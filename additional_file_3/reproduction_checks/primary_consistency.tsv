@@ -1,0 +1,5 @@
+cancer	axis	top50_hits	n_benchmark	top50_overlap_with_archived	spearman_with_archived	max_absolute_score_difference
+PDAC	translational	4	11	1.0	1.0	4.440892098500626e-16
+PDAC	functional	4	30	1.0	1.0	4.440892098500626e-16
+LUAD	translational	4	7	1.0	1.0	3.3306690738754696e-16
+LUAD	functional	2	36	1.0	1.0	4.440892098500626e-16

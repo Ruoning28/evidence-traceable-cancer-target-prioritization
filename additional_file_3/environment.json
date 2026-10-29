@@ -1,0 +1,23 @@
+{
+  "python": "3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:23:22) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.6.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8",
+    "PyYAML": "6.0.3",
+    "openpyxl": "3.1.5",
+    "et-xmlfile": "2.0.0"
+  },
+  "original_solver_runtime": "scikit-learn 1.9.0; see Additional file 2 metadata",
+  "scope": "Retained analysis environment; pixel-identical plotting uses the separate locks under environments/.",
+  "plotting_profiles": {
+    "documentation": "figure_code/README.md",
+    "conda_lock": "environments/figures-win-64.explicit.txt",
+    "figure2_wheel_lock": "environments/figure2-pip-win64.lock.txt",
+    "runtime_checks": "environments/plotting-profiles.json"
+  }
+}

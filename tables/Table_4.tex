@@ -1,0 +1,31 @@
+% 中文译文：主要建模参数与审核设置。
+\begin{table}[!tbp]
+\centering\small
+\caption{Primary numerical and review settings.}\label{tab:fixed-settings}
+\begin{tabularx}{\textwidth}{p{.42\textwidth}YY}\toprule
+% 中文译文：参数；PDAC；LUAD。
+Setting & PDAC & LUAD \\ \midrule
+% 中文译文：候选记录数：PDAC 40,591，LUAD 35,478。
+Candidate records & 40,591 & 35,478 \\
+% 中文译文：转化/功能建模正例数：PDAC 7/21，LUAD 6/26。
+Development positives, trans./func. & 7 / 21 & 6 / 26 \\
+% 中文译文：转化/功能留出基准数：PDAC 11/30，LUAD 7/36。
+Held-out benchmarks, trans./func. & 11 / 30 & 7 / 36 \\
+% 中文译文：两病种均拟合30次，背景与正例比例8:1。
+Fits / background ratio & 30 / 8:1 & 30 / 8:1 \\
+% 中文译文：两病种弹性网参数均为C=1，L1/L2混合比例α=0.5。
+Elastic net & $C=1,\ \alpha=0.5$ & $C=1,\ \alpha=0.5$ \\
+% 中文译文：两病种均用SAGA求解，主要容差10⁻⁶。
+Solver / primary tolerance & SAGA / $10^{-6}$ & SAGA / $10^{-6}$ \\
+% 中文译文：两病种参考容差均为0.01。
+Reference tolerance & 0.01 & 0.01 \\
+% 中文译文：两病种均使用两种置换零假设，各500次。
+Null families / permutations each & 2 / 500 & 2 / 500 \\
+% 中文译文：两病种均进行20组背景集成及50组标签删减。
+Background / label ensembles & 20 / 50 & 20 / 50 \\
+% 中文译文：两病种均评价31项审核策略。
+Review policies & 31 & 31 \\
+\bottomrule\end{tabularx}
+% 中文译文：每次拟合内部估计标准化参数，收敛重试保留样本、种子和目标函数。初始最多迭代10,000次，必要时沿用同一样本延长迭代。实际分类阈值见补充S6。
+\parbox{\textwidth}{\footnotesize Scaling is trained within each fit; convergence retries preserve samples, seeds and objective. Initial maximum iterations are 10,000, with same-sample extensions when needed. Actual gate cutoffs are in Supplement S6.}
+\end{table}

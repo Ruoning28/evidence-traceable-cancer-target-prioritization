@@ -1,0 +1,7 @@
+machine_field	display_name	cancer	source	independent_external_replication
+external_reproducibility_score	Reproducibility support	PDAC	GEO cross-cohort significant-cohort/direction support	Not established by the label
+external_reproducibility_score	Reproducibility support	LUAD	0.5 TCGA expression + 0.5 DepMap dependency	No
+external_reproducibility	Reproducibility support	PDAC/LUAD	Evidence-card alias of cancer-specific score	See cancer-specific construction
+geo_external_reproducibility_score	GEO cross-cohort support	PDAC	GEO cross-cohort score	Not established by database separation
+geo_external_reproducibility_score	GEO cross-cohort support	LUAD	Unavailable	No
+external_positive_support	Reproducibility/association support flag	PDAC/LUAD	Unchanged legacy support-block flag; includes Open Targets/GEO as configured	No independence claim

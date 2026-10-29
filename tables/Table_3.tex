@@ -1,0 +1,23 @@
+% 中文译文：候选的六类审核规则。
+\begin{table}[!t]
+\centering\small
+\caption{Operational six-class review rules.}\label{tab:decision-guide}
+\begin{tabularx}{\textwidth}{p{.12\textwidth}Yp{.25\textwidth}}\toprule
+% 中文译文：类别及判断顺序；进入条件；研究含义。
+Class / order & Entry condition & Interpretation \\ \midrule
+% 中文译文：IV类，首先判断：风险代理≥0.75，标明需要进一步评估风险的候选。
+IV / 1 & Risk proxy $\geq0.75$. & Risk-proxy concern requires follow-up. \\
+% 中文译文：I类，第二判断：转化分数位于最高2%，可药性≥0.10，安全可接受度≥0.40；依赖性达到其90分位的一半，或满足启用的强临床证据替代条件。表示转化证据支持。
+I / 2 & Translational upper 2\%; druggability $\geq0.10$; safety $\geq0.40$; dependency $\geq0.5q_{.90}$ or enabled clinical override. & Translational-precedence support. \\
+% 中文译文：III类，第三判断：未进入前两类，依赖性达到90分位，可药性<0.15。表示依赖明确而干预条件有限。
+III / 3 & Dependency $\geq q_{.90}$ and druggability $<0.15$, outside higher-priority rules. & Dependency-supported, limited actionability. \\
+% 中文译文：II类，第四判断：未进入此前类别，功能分数位于最高2%，依赖性和疾病支持均达到各自90分位的一半，安全可接受度≥0.40。表示功能发现支持。
+II / 4 & Functional upper 2\%; dependency and disease support $\geq0.5q_{.90}$; safety $\geq0.40$, outside higher-priority rules. & Functional-discovery support. \\
+% 中文译文：V类，第五判断：未进入此前类别，疾病支持达到90分位，而依赖性低于参考值的一半。表示疾病关联或标志物样证据。
+V / 5 & Disease support $\geq q_{.90}$ and dependency $<0.5q_{.90}$, outside higher-priority rules. & Biomarker-like or low-dependency evidence. \\
+% 中文译文：VI类，最后判断：汇总其余记录，包括证据较少、证据组合不同或审核门槛未满足的候选。
+VI / 6 & Residual under current observations and policy. & Insufficient, mixed or gate-constrained evidence. \\
+\bottomrule\end{tabularx}
+% 中文译文：q₉₀是相应变量在该病种中的90分位参照。启用的依赖性替代条件为临床先例≥0.60或Open Targets≥0.50。参考类别取按顺序首先满足的规则；测量补全或策略变化下的可能类别另行输出。
+\parbox{\textwidth}{\footnotesize $q_{.90}$ is the cancer-specific 90th-percentile reference for the relevant variable. Enabled override: clinical precedence $\geq0.60$ or Open Targets $\geq0.50$. Reference classes use the first satisfied rule. Possible classes under measurements and policies are separate outputs.}
+\end{table}

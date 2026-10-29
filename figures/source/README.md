@@ -1,0 +1,1 @@
+Current source tables are byte-identical to `additional_file_3/figure_code/figure_source/`. Original July tables are retained separately in `../legacy_source/`; follow the current figure wrapper and frozen inputs.

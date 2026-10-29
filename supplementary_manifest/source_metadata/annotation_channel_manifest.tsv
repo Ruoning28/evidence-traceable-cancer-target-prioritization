@@ -1,0 +1,19 @@
+cancer	channel	resource	contribution	saturation_count	construction_stage
+PDAC	opentargets_overall_score	Open Targets	one when positive, zero otherwise	5	shared annotation construction
+PDAC	opentargets_clinical_score	Open Targets	one when positive, zero otherwise	5	shared annotation construction
+PDAC	opentargets_literature_score	Open Targets	one when positive, zero otherwise	5	shared annotation construction
+PDAC	opentargets_somatic_mutation_score	Open Targets	one when positive, zero otherwise	5	shared annotation construction
+PDAC	drugcentral_interaction_count	DrugCentral	one when positive, zero otherwise	5	shared annotation construction
+PDAC	dgidb_interaction_count	DGIdb	one when positive, zero otherwise	5	shared annotation construction
+PDAC	ttd_mapping_count	TTD	one when positive, zero otherwise	5	shared annotation construction
+PDAC	ttd_approved_mapping_count	TTD	one when positive, zero otherwise	5	shared annotation construction
+PDAC	ttd_clinical_mapping_count	TTD	one when positive, zero otherwise	5	shared annotation construction
+LUAD	opentargets_overall_score	Open Targets	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	opentargets_clinical_score	Open Targets	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	opentargets_literature_score	Open Targets	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	opentargets_somatic_mutation_score	Open Targets	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	drugcentral_interaction_count	DrugCentral	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	dgidb_interaction_count	DGIdb	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	ttd_mapping_count	TTD	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	ttd_approved_mapping_count	TTD	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement
+LUAD	ttd_clinical_mapping_count	TTD	one when positive, zero otherwise	5	inherited shared annotation; not recalculated after LUAD disease-association replacement

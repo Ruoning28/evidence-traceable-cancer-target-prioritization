@@ -1,0 +1,22 @@
+{
+  "figure2": {
+    "python": "3.13.9",
+    "platform": "win32",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "arial_sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1",
+    "matplotlib": "3.10.0",
+    "freetype": "2.6.1",
+    "freetype_build": "local"
+  },
+  "figures3_6": {
+    "python": "3.13.9",
+    "platform": "win32",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "arial_sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1",
+    "matplotlib": "3.10.6",
+    "freetype": "2.13.3",
+    "freetype_build": "system"
+  }
+}

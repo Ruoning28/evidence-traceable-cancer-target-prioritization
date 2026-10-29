@@ -1,15 +1,7 @@
-﻿# Output files and data not stored in GitHub
+# Current outputs and data locations
 
-This GitHub repository is intended to provide public analysis code, lightweight documentation, and small reproducibility manifests.
+Use [the current data and attachment mapping](README.md), [data availability manifest](data_availability_manifest.tsv), [supplementary file manifest](supplementary_files_manifest.tsv) and [source resource manifest](source_data_manifest.tsv).
 
-The following files are intentionally not stored directly in the repository:
+Current results and frozen inputs are distributed in Additional files 2 and 4. Analysis code is in Additional file 3 and the byte-identical `additional_file_3/` repository directory. Main tables are editable LaTeX files in `tables/`; current figure previews are in `figures/paper_preview/`; their current machine-readable source tables are in `figures/source/` and `additional_file_3/figure_code/figure_source/`.
 
-- full processed target evidence matrices;
-- large source-trace and role-assigned record tables;
-- raw public database downloads;
-- large intermediate analysis outputs;
-- full machine-readable supplementary tables when they are better distributed with the manuscript or a public data repository;
-- journal submission manuscript files and LaTeX build artifacts.
-
-These materials are described in `data_availability_manifest.tsv`, `source_data_manifest.tsv`, and `supplementary_tables_manifest.tsv` when available. They should be obtained from the manuscript supplementary information, the associated public data repository, or the original public data providers cited in the manuscript.
-
+Original source-layout code in `src/`, `scripts/` and root `config/` is historical. Reproduce the original version by checking out the baseline named in `additional_file_3/SOURCE_ORIGIN.json`, rather than mixing its files with the current package.

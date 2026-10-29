@@ -1,0 +1,3 @@
+﻿axis	strategy	n_heldout_targets	median_rank_percentile	mean_rank_percentile	top20_recovery	top50_recovery	top100_recovery	top200_recovery
+translational	leave_one_positive_out	7	0.9831978319783198	0.9618519691690424	0.0	0.0	0.0	0.1428571428571428
+functional	source_stratified_5fold	21	0.985858585858586	0.9775079482396556	0.0952380952380952	0.1904761904761904	0.1904761904761904	0.2857142857142857
