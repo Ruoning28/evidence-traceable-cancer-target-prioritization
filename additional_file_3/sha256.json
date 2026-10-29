@@ -2,8 +2,8 @@
   ".gitignore": "98977f65b41aef7eac7986e8451f55cf670b1bf846dbb0344176aa86056adc6e",
   "ANALYSES.md": "1269a4d6651c8fce0adc55110dfd1d0706b3834ea15ada61a83065e4e19d79fd",
   "LICENSE": "16926d7dc2eb482ccf35c95931ef69363eb9e6d52c8c1e414f3ff008f5f1b83b",
-  "README.md": "1dbf0d1f5457c38e877dc5daf5f47b1ed9f805f9291274bb4dfbd285779eb563",
-  "RELEASE_NOTES.md": "cba53d290a5d5b46faeb54c9a7a7ade6c14dc9207b1f085d9d59ff977d04c1c3",
+  "README.md": "e3212c08a884375161128680da9542b4b41589c92dcf1ae67ae5da11d99f9bae",
+  "RELEASE_NOTES.md": "67fe62bd01a80f8b792887608afd7ebbba9ae1b08ed6018e8955fcd6c0e57f05",
   "SOURCE_ORIGIN.json": "0dc074397e6e2af24c45ed1a5421f38ffffc78f716b66bace4749253c16caea2",
   "build_features.py": "132e44673f55f10720fae2ce6664494f98d3db351ee3660112828c0dc844cc69",
   "build_source_matrix.py": "17132de5948b395357cb896948572bb51968bc4b90a8e18ae0fc38a86d3fe320",
@@ -11,12 +11,12 @@
   "config/PDAC/analysis_config.json": "d966806feb4055899e5038d5f31159285d991772529fe482b23b6123d1bbbd19",
   "environment.json": "6eed7e0c639547c5c72bb8f89962e30e95d5841c60f658b4116dab57e5e91d05",
   "environments/README.md": "9c22d80d7d6b1ab54e9c002f9972179d86971af57336728d0b8d138e19ff61f2",
-  "environments/figure-reference.json": "e2fb7b5b65f7e1ecef72ea49b33e5c32ad8774a942d8366bce45faa2cfb8fe5a",
+  "environments/figure-reference.json": "c3a13f66d0234f308d2422138f3b1ec9a7b94f7ef65b7d411509fdfb301ddcdc",
   "environments/figure2-pip-win64.lock.txt": "9364a388b0fcf842fc1d9b3cb5aa65777c60ad06bd0fa6f14e9297fcd5b64d1e",
   "environments/figures-conda-packages.json": "2bcf5fc9a335eea95614e23a3a407261d666b2eb06b826f86099a4a7f04ed1f5",
   "environments/figures-win-64.explicit.txt": "d4e920d6b561af6677ed0eef3f580623b5a92bbbc9fe7d1a34ca550b0d92cbc6",
   "environments/plotting-profiles.json": "ea57be0002713609299ea9f8c1ad98ccac12c03f08048e7de845059909c9b64c",
-  "figure_code/README.md": "c7e70bbbe3a8991fd32fb9eea5f36512e2d9f68d3f93b2b47b7e4c7ec48f19fa",
+  "figure_code/README.md": "8880cb1dd8664da1afe1cbfb0a5e6cf10fc4384098ef49ddbcb8a8efdcf90b9f",
   "figure_code/display_labels.json": "518877a05429e8faea2a1523d98a7d321abba0becb1431a0cb08bcaa07ededca",
   "figure_code/figure_source/LUAD_benchmark_aggregate.tsv": "36fe23a62a5c34d11e7ac6d1c6f608673237ebd2236421c8c42c0b1b0bb6a824",
   "figure_code/figure_source/LUAD_fig5_oof.tsv": "1b23af53c894fe7cc07395f6e0a3252fe78770b32b203071874b82af1f4267bb",
@@ -76,5 +76,6 @@
   "summarize_permutations.py": "54129e02aa8221580617d1169fbaabb0063bc1fe09aa73a959a7a7a2dcf38d3a",
   "tests/test_source_construction.py": "b12cdd76e6c72d10901dd9adad4e392898d35d191e8145be35ddb085569dbe4a",
   "tools/package_code.py": "75e1b6e770b75833a08fb9d9bc8f8f2b25b63f1ea38530418c894ac1f2079cd5",
-  "verification/release_validation.json": "a9a6a6982d6a2612fed7ba58b846ac39244deab87b39e06ba8a0412ccbeebe7c"
+  "verification/release_validation.json": "a9a6a6982d6a2612fed7ba58b846ac39244deab87b39e06ba8a0412ccbeebe7c",
+  "verification/submission_validation.json": "0f04beb1dd0df5880f86fe035ef3d8d9275353d5713690c64fb6c0f0271b11a2"
 }

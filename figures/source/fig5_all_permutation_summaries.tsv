@@ -1,0 +1,9 @@
+﻿axis	null	metric	evaluation_set	n_development_positives	n_benchmark_targets	n_model_repeats_per_permutation	n_permutations	n_converged_fits	n_fit_attempts	n_numerical_retry_attempts	fit_convergence_rate	observed_value	permutation_mean	permutation_sd	empirical_p_value	cancer	holm8
+translational	uniform_gene_labels	top50_recovery	heldout_benchmark	7	11	30	500	15000	15000	0	1.0	0.3636363636363636	0.0125454545454545	0.0333966891019934	0.0019960079840319	PDAC	0.0159680638722552
+translational	coverage_conditioned_labels	top50_recovery	heldout_benchmark	7	11	30	500	15000	15000	0	1.0	0.3636363636363636	0.02	0.0463190516467527	0.0019960079840319	PDAC	0.0159680638722552
+functional	uniform_gene_labels	top50_recovery	heldout_benchmark	21	30	30	500	15000	15000	0	1.0	0.1333333333333333	0.0130666666666666	0.0236252219272351	0.0059880239520958	PDAC	0.029940119760479
+functional	coverage_conditioned_labels	top50_recovery	heldout_benchmark	21	30	30	500	15000	15000	0	1.0	0.1333333333333333	0.0175333333333333	0.0296895791669587	0.0239520958083832	PDAC	0.0718562874251496
+translational	uniform_gene_labels	top50_recovery	heldout_benchmark	6	7	30	500	15000	15000	0	1.0	0.5714285714285714	0.0208571428571428	0.0607242008710577	0.0019960079840319	LUAD	0.0159680638722552
+translational	coverage_conditioned_labels	top50_recovery	heldout_benchmark	6	7	30	500	15000	15000	0	1.0	0.5714285714285714	0.0219999999999999	0.07316238578585	0.0059880239520958	LUAD	0.029940119760479
+functional	uniform_gene_labels	top50_recovery	heldout_benchmark	26	36	30	500	15000	15000	0	1.0	0.0555555555555555	0.0077222222222222	0.015828849267581	0.0499001996007984	LUAD	0.0718562874251496
+functional	coverage_conditioned_labels	top50_recovery	heldout_benchmark	26	36	30	500	15000	15000	0	1.0	0.0555555555555555	0.006	0.0136463263269724	0.0259481037924151	LUAD	0.0718562874251496

@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-17",
+  "scope": "Submission packaging and source/data location synchronization; no scientific algorithm changes.",
+  "manuscript_pdf_sha256": "14c6e6d2bbc368c1ad345505759a8f336a42eeeddf475c7613b4b64c7328a7ff",
+  "prepackaging_manuscript_pdf_sha256": "f2d41aa3c37f44e4822b4ffe67129e9ffa72c6367a38fc1cf7c489741e0ea1d6",
+  "main_pages": 51,
+  "main_changed_pages": [
+    44,
+    51
+  ],
+  "main_changes": "Availability text now describes data in Additional files 2 and 4; supplementary file metadata lists four actual files.",
+  "supplement_pages": 13,
+  "supplement_all_pages_pixel_identical_to_original": true,
+  "figure_checks": [
+    {
+      "figure": 2,
+      "page": 27,
+      "different_pixels": 0,
+      "native_content_equal": true,
+      "rgb_sha256": "09c6c5915dd88f84cbc1569481759219d5ecec1fe69fabaa5476731b26926b28"
+    },
+    {
+      "figure": 3,
+      "page": 30,
+      "different_pixels": 0,
+      "native_content_equal": true,
+      "rgb_sha256": "3bb54da607d3177472da3db960bd78ac1484baeca08221c43214192935451920"
+    },
+    {
+      "figure": 4,
+      "page": 32,
+      "different_pixels": 0,
+      "native_content_equal": true,
+      "rgb_sha256": "6bf848115d2106ad7bd8eb854fdb6c7e378e02c2fa1c5b75f17fc0b2d2d1cc59"
+    },
+    {
+      "figure": 5,
+      "page": 34,
+      "different_pixels": 0,
+      "native_content_equal": true,
+      "rgb_sha256": "384dc73178df9b51f8c54b8a601ed95a84d0424619840fb04f8f819e8f1ae8b2"
+    },
+    {
+      "figure": 6,
+      "page": 39,
+      "different_pixels": 0,
+      "native_content_equal": true,
+      "rgb_sha256": "a6f04e1dfea27a8f615cbb60d991d99893d2e75838ae0faa22bc715d06e8b80b"
+    }
+  ],
+  "analysis_python_sources_unchanged": true,
+  "all_frozen_numerical_input_files_unchanged": true,
+  "data_archives": [
+    {
+      "file": "Additional_file_2.zip",
+      "sha256": "911dcab0a56d084c596e687dea184f1745425745aeb084b7b1e9ae2805995d39"
+    },
+    {
+      "file": "Additional_file_4.zip",
+      "sha256": "f684b58dbeaa068799a7935a769313103f0ddfc31e64edfac3cf30f1ebea83f6"
+    }
+  ],
+  "runtime_profiles": {
+    "figure2": {
+      "python": "3.13.9",
+      "platform": "win32",
+      "matplotlib": "3.10.0",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "freetype": "2.6.1",
+      "freetype_build": "local",
+      "arial_sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1"
+    },
+    "figures3_6": {
+      "python": "3.13.9",
+      "platform": "win32",
+      "matplotlib": "3.10.6",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "freetype": "2.13.3",
+      "freetype_build": "system",
+      "arial_sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1"
+    }
+  },
+  "full_model_suite_rerun": false,
+  "previous_primary_120_fit_check": "Passed in the preceding read-only audit using byte-identical scientific Python and frozen input files.",
+  "remote_repository_updated": false,
+  "texlive_2021_footmisc_fallback_added": true,
+  "local_page_streams_unchanged_after_compatibility_patch": true
+}

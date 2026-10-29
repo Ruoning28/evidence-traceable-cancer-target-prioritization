@@ -1,4 +1,6 @@
-﻿# Remote repository public-safety check
+> Historical baseline record. For the final revised manuscript use [README.md](README.md), [the current code package](additional_file_3/README.md) and [current submission manifests](supplementary_manifest/README.md).
+
+# Remote repository public-safety check
 
 Repository: https://github.com/Ruoning28/evidence-traceable-cancer-target-prioritization
 

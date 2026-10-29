@@ -1,0 +1,17 @@
+Figure 1
+Evidence-traceable target assessment. (A) Public molecular, functional and therapeutic sources are organized for feature construction, positive-label definition, benchmarking and contextual annotation. (B) Target-level features support separate translational-precedence and functional-discovery rankings, followed by classification using dependency, disease support, tractability and risk-proxy evidence. (C) Target classes, evidence cards and evaluation summaries connect prioritization to supporting evidence and follow-up conditions.
+
+Figure 2
+Cancer-specific input scale and evidence landscape. (A) Frozen candidate and label counts. (B) Processed coverage: the fraction of records with at least one configured availability indicator or positive transformed component in the evidence block. (C) Positive-label source composition. Reproducibility support was constructed differently in the two cancer settings: PDAC used GEO cross-cohort support, whereas LUAD used an internal composite of TCGA and DepMap evidence. The LUAD measure does not represent independent external replication. Panel B reports processed coverage of the configured support block, which also includes GEO and Open Targets fields; coverage does not establish independent replication. Actual observation states are examined separately.
+
+Figure 3
+LUAD ranking and candidate review. (A) Held-out benchmark Top-K recovery for both axes. (B) Dual-axis score density with the five illustrative genes annotated. (C) Operational classes in the 35,470-record review pool, excluding eight reserved records. Score quantiles retain the full frozen input reference; benchmark and development evaluations use separate denominators.
+
+Figure 4
+PDAC evidence profiles and candidate triage. (A) Support and risk proxies for the five illustrative genes. (B) Dual-axis score density with the same examples. (C) Class distribution in the 40,583-record review pool. Support and risk fields have different directions; the panels describe evidence and operational review conditions.
+
+Figure 5
+Benchmark enrichment and perturbation diagnostics. (A,B) Uniform-label permutation summaries and observed recovery for LUAD and PDAC, with Holm adjustment across both nulls and all eight tests. Grey points and whiskers show the permutation mean and mean ±1.96 permutation standard deviations; coloured points show observed recovery. (C) Source-role-out priority percentiles where estimable; higher values denote earlier ranks, and both labels and feature permissions change. (D) Benchmark Top-K recovery. (E) Development-positive out-of-fold recovery. (F) Top-50 membership overlap under background resampling and positive-label thinning, with empirical 2.5th–97.5th percentile ranges.
+
+Figure 6
+Representative PDAC evidence cards. The four displayed cases retain dual-axis ranks, reference classes and support/risk fields. Observation annotations indicate whether raw constraint evidence is present; policy annotations show possible operational classes. Literature context is interpreted in the text and supplement. Risk proxies specify the recorded review conditions.

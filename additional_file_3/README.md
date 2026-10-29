@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 
 Excel inputs use openpyxl; unreadable TTD or literature workbooks raise an error identifying the affected file.
 
-Extract Additional file 2 into `../additional_file_2`, alongside this repository. Run the following commands from the repository root. Analysis inputs are distributed separately in Additional file 2.
+Extract both Additional_file_2.zip and Additional_file_4.zip into the same parent directory; together they restore `../additional_file_2`, alongside this repository. Run the following commands from the repository root. Analysis inputs are distributed separately across Additional files 2 and 4.
 
 ```text
 python run_experiments.py --data ../additional_file_2 --output results/strict --stage prepare
@@ -72,3 +72,5 @@ The command refuses to overwrite an existing archive, excludes runtime environme
 ## Validation scope
 
 `verification/release_validation.json` records the environment rebuild, frozen-table figure generation and reference comparisons performed for this code release. The retained primary-model consistency files under `reproduction_checks/` are earlier supplied run records. Rendering the figures does not repeat all primary fits, out-of-fold analyses or refitted permutations; no new full-model reproduction claim is made by this release.
+
+The current submission packaging checks are in `verification/submission_validation.json`. The earlier `release_validation.json` retains the prepackaging manuscript hash as historical provenance. The current figure reference hash points to the submission PDF; drawings and all frozen numerical inputs are unchanged.

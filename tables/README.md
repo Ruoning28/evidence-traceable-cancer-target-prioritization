@@ -1,0 +1,1 @@
+Nine editable LaTeX main tables match the final manuscript. Table_index.csv maps the compiled table number to the manuscript source filename and page. The .tex files are table fragments for inclusion in the manuscript template, not standalone documents. Table 7 is the class distribution, Table 8 the multiplicity-adjusted permutation summary and Table 9 the comparator summary.

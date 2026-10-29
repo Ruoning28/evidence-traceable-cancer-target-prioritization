@@ -1,127 +1,54 @@
 # Evidence-traceable cancer target prioritization framework
 
-This repository contains the analysis code for the manuscript:
+Analysis code and reproducibility manifests for:
 
-**An evidence-traceable framework for cancer therapeutic target assessment and prioritization from public multi-source data**
+**An evidence-traceable framework for cancer therapeutic target prioritization using heterogeneous biomedical evidence**
 
-## Current revised manuscript code (17 October 2026)
+## Final revised manuscript
 
-The audited code for the revised manuscript is in **[additional_file_3/](additional_file_3/README.md)**. Download the corresponding **[Additional_file_3.zip](releases/Additional_file_3.zip)**; its [SHA-256 checksum](releases/Additional_file_3.zip.sha256) and internal file manifest preserve the verified submission bytes.
+The current analysis package is **[additional_file_3/](additional_file_3/README.md)**. Its 80 files are byte-identical to the final submitted Additional file 3 and the downloadable **[Additional_file_3.zip](releases/Additional_file_3.zip)**. The [archive checksum](releases/Additional_file_3.zip.sha256) and internal 79-entry [file manifest](additional_file_3/sha256.json) verify those exact bytes.
 
-Use the [revised analysis instructions](additional_file_3/README.md) and [locked figure-reproduction instructions](additional_file_3/figure_code/README.md), with Additional file 2 supplied separately. The rendering profile is Windows x86-64 with the documented Arial/font/build fingerprints. Its validation does not represent a new full-model refit.
+The matching reference manuscript PDF has SHA-256 `14c6e6d2bbc368c1ad345505759a8f336a42eeeddf475c7613b4b64c7328a7ff`. [Submission artifact identities](supplementary_manifest/submission_artifacts.tsv) record the LaTeX archive, figures, tables and supplementary files. [Comparison with the original repository](docs/ADDITIONAL_FILE_3_COMPARISON.md) describes the earlier analysis changes and the later packaging-only synchronization.
 
-See [the comparison with the original repository](docs/ADDITIONAL_FILE_3_COMPARISON.md) for parameter, pipeline, validation and environment differences. The original source-layout instructions, manifests and previews below remain for historical comparison; follow one complete layout and its matching configuration.
+## Data and supplementary files
 
-## Overview
+| File | Contents |
+|---|---|
+| Additional file 1 | Supplementary methods and results S1–S19 |
+| Additional file 2 | Frozen model inputs, configurations, ranking/review results, observation and source metadata, ledgers and the combined data checksum manifest |
+| Additional file 3 | Analysis and figure-reproduction code, environment specifications and running instructions |
+| Additional file 4 | PDAC and LUAD source-evidence matrices |
 
-This repository provides code for a source-role-based, evidence-traceable framework for cancer therapeutic target assessment and prioritization using public multi-source data.
+Obtain Additional files 2 and 4 with the manuscript and extract both into the repository root, preserving their paths. Together they restore `additional_file_2/`, adjacent to `additional_file_3/`. Verify all 179 input-file entries in `additional_file_2/sha256.json`; it includes the two source matrices from Additional file 4.
 
-The workflow includes:
+See the [data and supplementary manifests](supplementary_manifest/README.md), [source-resource overview](supplementary_manifest/source_data_manifest.tsv), [resource acquisition identities](supplementary_manifest/source_metadata/resource_acquisition_register.tsv) and [source-role records](supplementary_manifest/source_roles/). PDAC GEO cross-cohort support and LUAD internal TCGA/DepMap support have different constructions; the latter is not independent external replication.
 
-- cancer-specific evidence harmonization
-- target-level feature construction
-- sampled-background positive-unlabeled-style prioritization
-- translational-precedence and functional-discovery scoring
-- review-class assignment
-- held-out benchmark recovery analysis
-- label-permutation validation
-- out-of-fold and source-out validation
-- comparator analyses
-- evidence-card generation
-- figure and table generation
+## Run the current analysis
 
-## Repository structure
+Create the analysis environment described in [the package README](additional_file_3/README.md), using Python 3.10 and the pinned dependencies. From the repository root:
 
 ```text
-src/                    Core functions and reusable modules
-scripts/                Analysis scripts
-config/                 Non-sensitive configuration files
-docs/                   Documentation and workflow notes
-figures/                Figure-generation scripts, source data, and small preview figures
-examples/               Small manifest-style example inputs
-supplementary_manifest/ Data and supplementary-file manifests
+cd additional_file_3
+python -m pip install -r requirements.txt
+python run_experiments.py --data ../additional_file_2 --output results/strict --stage prepare
+python run_experiments.py --data ../additional_file_2 --output results/strict --stage primary
+python run_review.py --data ../additional_file_2 --output results/review
 ```
 
-The original analysis package used a module directory named `LUDA` for the LUAD cancer analysis. The name is preserved in `src/LUDA/` to keep imports reproducible.
+[ANALYSES.md](additional_file_3/ANALYSES.md) maps primary, comparator, permutation, holdout, source-out, measurement and sensitivity stages to the manuscript. Full permutation/holdout refits can be expensive; output directories are explicit and frozen inputs are not modified.
 
-## Requirements
+## Figures and tables
 
-The analysis was performed using Python.
+Current [six figure assets and captions](figures/README.md), [machine-readable figure source tables](figures/source/) and [nine editable main tables](tables/README.md) match the final submission. Figure 1 is static artwork. For Figures 2–6 use the [locked figure environments and per-figure commands](additional_file_3/figure_code/README.md). The Figure 2 wrapper reads the fully restored data directory; the split Additional_file_2.zip alone is insufficient. Plotting environments are separate from the analysis environment.
 
-Python dependencies are listed in `requirements.txt` and can be installed with:
+## Original code and validation scope
 
-```bash
-pip install -r requirements.txt
-```
+The root `src/`, `scripts/`, `config/`, `requirements.txt` and the original project documentation preserve the historical source layout. Use the current `additional_file_3` instructions for this revision; use the baseline in [SOURCE_ORIGIN.json](additional_file_3/SOURCE_ORIGIN.json) to retrieve a complete historical checkout. Original figure source tables are retained in `figures/legacy_source/`.
 
-For the source-layout repository, run commands from the repository root and expose `src/` on the Python path when needed:
+Validation records distinguish previous model checks, figure reconstruction and submission packaging. This repository synchronization verifies file identities, data manifests and entry-point compatibility; it does not claim a new full model fit, refitted permutation suite or complete upstream raw-resource reconstruction. [Current submission validation](additional_file_3/verification/submission_validation.json) and earlier release records retain their original scope and fingerprints.
 
-```bash
-set PYTHONPATH=src
-```
+## License and citation
 
-On PowerShell:
+Code is released under the MIT License; source datasets retain their respective licences. Please cite the associated manuscript:
 
-```powershell
-$env:PYTHONPATH = "src"
-```
-
-## Usage
-
-The scripts should be run in the order described below. Some large processed matrices and public-source downloads are not included in this GitHub repository; see `supplementary_manifest/` for data availability and output-file descriptions.
-
-```bash
-# Run the complete workflow if the required input data are available
-python scripts/main.py
-
-# Cancer-specific analyses
-python scripts/run_pdac_analysis.py
-python scripts/run_luad_analysis.py
-
-# Validation and verification checks
-python scripts/run_validation.py
-
-# Generate paper figures and tables from available result files
-python scripts/generate_figures.py
-python scripts/generate_tables.py
-```
-
-Additional options from the original workflow include:
-
-```bash
-python scripts/main.py --module PDAC
-python scripts/main.py --module LUDA
-python scripts/main.py --module LUAD
-python scripts/main.py --skip-analysis
-python scripts/main.py --verify-only
-python scripts/main.py --download-data --module PDAC
-python scripts/main.py --download-data --module LUDA
-python scripts/main.py --build-luda-inputs --module LUDA --skip-analysis --skip-figures
-```
-
-## Data availability
-
-This repository contains analysis code and data manifests.
-
-Large processed evidence matrices, label and benchmark manifests, source-trace files, validation summaries, and machine-readable supplementary tables are provided with the manuscript and/or in the associated public data repository.
-
-Raw public data sources are cited in the manuscript.
-
-## Reproducibility notes
-
-The analyses use public multi-source data and cancer-specific processed evidence matrices. Some large input and output files are not stored directly in this GitHub repository. See `supplementary_manifest/` for file descriptions and data-source manifests.
-
-Users should update local input and output paths in the example configuration files before running the analysis. No local absolute paths are required by default.
-
-The `figures/source/` directory contains small machine-readable source tables for reproducing selected paper figures. The `figures/paper_preview/` directory contains small preview copies of final paper figures for orientation only.
-
-## License
-
-This code is released under the MIT License.
-
-## Citation
-
-If you use this code, please cite the associated manuscript:
-
-Li R, Wang D, Lan W. An evidence-traceable framework for cancer therapeutic target assessment and prioritization from public multi-source data.
-
+Li R, Wang D, Lan W. An evidence-traceable framework for cancer therapeutic target prioritization using heterogeneous biomedical evidence.

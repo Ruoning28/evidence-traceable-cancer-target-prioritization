@@ -1,0 +1,28 @@
+gene_symbol	clinical_positive	discovery_positive	positive_source_count	clinical_sources	discovery_sources	heldout_eligible_sources
+ATR	0	1	1		known_dependency	known_dependency
+BRAF	1	0	1	known_direct_drug		known_direct_drug
+BRCA1	0	1	1		curated_literature:OpenTargets2025	curated_literature:OpenTargets2025
+BRCA2	1	1	2	known_biomarker	curated_literature:OpenTargets2025	known_biomarker;curated_literature:OpenTargets2025
+CDKN2A	0	1	2		curated_literature:OpenTargets2025;known_pdac_driver	curated_literature:OpenTargets2025;known_pdac_driver
+CHEK1	0	1	1		known_dependency	known_dependency
+CHEK2	0	1	1		known_dependency	known_dependency
+COL10A1	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+CTSE	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+LAMB3	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+LAMC2	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+MSH2	1	0	1	known_biomarker		known_biomarker
+NTRK1	1	0	2	known_biomarker;known_direct_drug		known_biomarker;known_direct_drug
+NTRK3	1	0	2	known_biomarker;known_direct_drug		known_biomarker;known_direct_drug
+PALB2	0	1	1		curated_literature:OpenTargets2025	curated_literature:OpenTargets2025
+PARP1	1	0	1	known_direct_drug		known_direct_drug
+PMS2	1	0	1	known_biomarker		known_biomarker
+PRMT5	0	1	1		known_dependency	known_dependency
+S100P	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+SLC2A1	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+SLC30A6	0	1	1		curated_literature:SLC2025	curated_literature:SLC2025
+SLC39A10	0	1	1		curated_literature:SLC2025	curated_literature:SLC2025
+SLC6A14	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+SMAD4	0	1	2		curated_literature:OpenTargets2025;known_pdac_driver	curated_literature:OpenTargets2025;known_pdac_driver
+TMPRSS4	0	1	1		curated_literature:Nwosu2025	curated_literature:Nwosu2025
+TP53	0	1	2		curated_literature:OpenTargets2025;known_pdac_driver	curated_literature:OpenTargets2025;known_pdac_driver
+WEE1	0	1	1		known_dependency	known_dependency

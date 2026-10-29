@@ -1,18 +1,10 @@
-﻿file_name`tfile_type`tsize_bytes`tnotes
-framework_comparison_table_fixed.tex	.tex	4700	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_benchmark_gene_ranks.tex	.tex	6601	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_benchmark_gene_ranks.tsv	.tsv	10821	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_benchmark_uncertainty.tex	.tex	1200	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_candidate_universe_audit.tex	.tex	3177	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_feature_mapping.tex	.tex	5328	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_label_benchmark_manifest_summary.tex	.tex	2347	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_leakage_control_split_rationale.tex	.tex	2904	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_source_family_stress_tests.tex	.tex	2589	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-supplementary_threshold_robustness.tex	.tex	1784	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-table3_fixed_settings.tex	.tex	2694	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-table4_cancer_specific_inputs.tex	.tex	2826	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-table5_review_class_sizes.tex	.tex	1096	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-table6_comparator_results.tex	.tex	1727	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-table7_validation_summary.tex	.tex	1142	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-table9_source_role_controls.tex	.tex	2027	Manuscript supplementary table or LaTeX table; available with manuscript submission package.
-
+file_name	file_type	size_bytes	notes
+Table_1.tex	.tex	2435	Main Table 1: Published target-assessment resources and the scope of this workflow; manuscript page 3; source framework_comparison_table_fixed.tex; editable copy in tables/.
+Table_2.tex	.tex	2176	Main Table 2: Input data types and source roles; manuscript page 6; source table_input_roles.tex; editable copy in tables/.
+Table_3.tex	.tex	2797	Main Table 3: Operational six-class review rules; manuscript page 16; source table_decision_rules.tex; editable copy in tables/.
+Table_4.tex	.tex	1991	Main Table 4: Primary numerical and review settings; manuscript page 24; source table3_fixed_settings.tex; editable copy in tables/.
+Table_5.tex	.tex	1927	Main Table 5: Cancer-specific evidence definitions; manuscript page 24; source table4_cancer_specific_inputs.tex; editable copy in tables/.
+Table_6.tex	.tex	2054	Main Table 6: Source-role checks and residual overlap; manuscript page 28; source table9_source_role_controls.tex; editable copy in tables/.
+Table_7.tex	.tex	1754	Main Table 7: Reference operational class distribution; manuscript page 31; source table5_review_class_sizes.tex; editable copy in tables/.
+Table_8.tex	.tex	2600	Main Table 8: Permutation summaries with all-eight multiplicity adjustment; manuscript page 35; source table7_validation_summary.tex; editable copy in tables/.
+Table_9.tex	.tex	1888	Main Table 9: Top-50 recovery and comparator information permissions; manuscript page 37; source table6_comparator_results.tex; editable copy in tables/.

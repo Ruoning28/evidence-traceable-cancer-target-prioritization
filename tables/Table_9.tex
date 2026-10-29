@@ -1,0 +1,19 @@
+% 中文译文：各方法的Top-50基准召回及信息使用范围。
+\begin{table}[!tbp]
+\centering\small
+\caption{Top-50 recovery and comparator information permissions.}\label{tab:comparator-results}
+\begin{tabularx}{\textwidth}{p{.20\textwidth}YYYYYY}\toprule
+% 中文译文：设置；弹性网；L2；方向修正均值；原生排序；合并单轴；固定公式。
+Setting & EN & L2 & Mean & Native & Merged & Formula \\ \midrule
+% 中文译文：PDAC转化轴：上述六种方法在前50名分别命中4/11、3/11、1/11、5/11、2/11、3/11个基准靶点。
+PDAC Trans. & 4/11 & 3/11 & 1/11 & 5/11 & 2/11 & 3/11 \\
+% 中文译文：PDAC功能轴：上述六种方法分别命中4/30、4/30、3/30、3/30、4/30、6/30。
+PDAC Func. & 4/30 & 4/30 & 3/30 & 3/30 & 4/30 & 6/30 \\
+% 中文译文：LUAD转化轴：上述六种方法分别命中4/7、4/7、1/7、6/7、0/7、3/7。
+LUAD Trans. & 4/7 & 4/7 & 1/7 & 6/7 & 0/7 & 3/7 \\
+% 中文译文：LUAD功能轴：上述六种方法分别命中2/36、2/36、0/36、15/36、2/36、6/36。
+LUAD Func. & 2/36 & 2/36 & 0/36 & 15/36 & 2/36 & 6/36 \\
+\bottomrule\end{tabularx}
+% 中文译文：弹性网、L2和方向修正分位均值使用受限轴信息。原生排序在转化轴用治疗名次聚合，在功能轴用直接依赖指标；合并单轴合并两类正例，固定公式计算原生临床可行动性和发现潜力。各路线结果保存在机器可读表中，均可附上相同审核信息。
+\parbox{\textwidth}{\footnotesize EN/L2/Mean use the restricted axis information; Mean is direction-corrected. Native is therapeutic rank aggregation for translation and dependency-only for function. Merged combines both positive sets; Formula is the native actionability/discovery composite. All original routes are retained in the machine-readable archive. Review metadata can accompany every backend.}
+\end{table}

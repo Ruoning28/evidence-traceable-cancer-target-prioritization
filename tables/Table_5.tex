@@ -1,0 +1,19 @@
+% 中文译文：各病种的证据定义。
+\begin{table}[!tbp]
+\centering\small
+\caption{Cancer-specific evidence definitions.}\label{tab:cancer-specific-inputs}
+\begin{tabularx}{\textwidth}{p{.2\textwidth}YY}\toprule
+% 中文译文：证据类型；PDAC；LUAD。
+Evidence & PDAC & LUAD \\ \midrule
+% 中文译文：分子证据：PDAC使用TCGA-PAAD/GDC和CPTAC，并比较肿瘤与GTEx胰腺表达；LUAD使用TCGA/cBioPortal和CPTAC，其tcga_gtex字段实际按TCGA高z分数比例构建。
+Molecular & TCGA-PAAD/GDC and CPTAC; tumour/GTEx-pancreas expression contrast. & TCGA/cBioPortal and CPTAC; tcga\_gtex field uses TCGA z-score fractions. \\
+% 中文译文：蛋白证据：PDAC使用CPTAC转录/蛋白差异及磷酸化蛋白检出；LUAD优先使用CPTAC，缺失时按候选采用TCGA表达或RPPA回退值。
+Protein & CPTAC transcript/protein contrasts and phosphoprotein detection. & CPTAC with candidate-specific TCGA expression/RPPA fallback. \\
+% 中文译文：依赖性：PDAC合并四项指标的几何均值；LUAD加权合并基因效应与依赖概率。
+Dependency & Four-component geometric construction. & Weighted effect/probability construction. \\
+% 中文译文：重复性支持：PDAC使用GEO跨队列支持并限制别名重复计数；LUAD使用TCGA表达与DepMap依赖的内部复合指标。
+Reproducibility support & GEO cross-cohort support with alias reuse restricted. & Internal TCGA-expression/DepMap-dependency composite; not independent external replication. \\
+% 中文译文：治疗与风险注释：两病种均按来源用途规定信息范围，使用可干预性、正常表达、遗传约束和必需性代理，并保留本地来源路径信息。
+Therapeutic/risk annotation & Source-role permissions, tractability and normal/constraint/essentiality proxies. & Corresponding roles and proxies with local source-path coverage. \\
+\bottomrule\end{tabularx}
+\end{table}

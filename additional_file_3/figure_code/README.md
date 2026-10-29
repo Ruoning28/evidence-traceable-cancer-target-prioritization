@@ -17,7 +17,7 @@ Verified typography uses Windows Arial, SHA-256 `c9b76220a5be42ead4733611e417cd6
 
 ## Inputs and commands
 
-Extract Additional file 2 into a sibling `additional_file_2` directory, keeping its `frozen_inputs/`, `review_inputs/`, `historical_tables/` and `context/` together. Outputs/logs go under `--output`; inputs are not changed.
+Extract both Additional_file_2.zip and Additional_file_4.zip into the same parent directory to restore a sibling `additional_file_2` directory, keeping its `frozen_inputs/`, `review_inputs/`, `historical_tables/` and `context/` together. Outputs/logs go under `--output`; inputs are not changed.
 
 Generate all five figures:
 
@@ -40,7 +40,7 @@ If the Figure 2 wheel target is elsewhere, pass `--figure2-runtime <target-direc
 The underlying entry points remain available for content-oriented rendering:
 
 ```text
-python figure_code/generate_figure2.py --data-archive ../Additional_file_2.zip --output results/fig2
+conda run --prefix .runtime/figures python figure_code/reproduce_figures.py --data ../additional_file_2 --output results/fig2 --figures 2
 python figure_code/generate_figures.py --data ../additional_file_2 --output results/fig3 --figures 3
 ```
 
@@ -49,3 +49,5 @@ These direct commands do not check the pixel profile. Version numbers alone do n
 ## Verification scope
 
 `environments/figure-reference.json` records native drawing-stream hashes and 300-DPI RGB reference hashes. Pixel validation uses the actual figure objects in the stated manuscript PDF under matching PDF transparency-group conditions; images are not resized or registered to hide differences. These commands draw frozen/archived results and do not refit the upstream models or all permutations.
+
+The native Figure 2 archive reader expects a combined input ZIP, not the split submission ZIP alone. The wrapper above creates and removes the required temporary ZIP from the fully extracted Additional files 2 and 4.

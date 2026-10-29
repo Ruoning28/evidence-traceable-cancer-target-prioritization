@@ -2,3 +2,10 @@
 /additional_file_3/** -text
 /releases/Additional_file_3.zip binary
 /releases/Additional_file_3.zip.sha256 -text
+/figures/source/** -text
+/figures/legacy_source/** -text
+/figures/Figure_legends.txt -text
+/tables/** -text
+/supplementary_manifest/source_metadata/** -text
+/supplementary_manifest/source_roles/** -text
+/supplementary_manifest/analysis_inputs_sha256.json -text

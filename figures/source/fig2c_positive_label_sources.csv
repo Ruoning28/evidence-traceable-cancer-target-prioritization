@@ -1,4 +1,4 @@
-﻿axis,record_role,source_group,count,cancer
+axis,record_role,source_group,count,cancer
 functional,L,dependency,5,PDAC
 functional,L,driver,3,PDAC
 functional,L,literature,16,PDAC
@@ -15,4 +15,3 @@ functional,V,literature,22,LUAD
 translational,L,drug,6,LUAD
 translational,V,drug,5,LUAD
 translational,V,literature,3,LUAD
-

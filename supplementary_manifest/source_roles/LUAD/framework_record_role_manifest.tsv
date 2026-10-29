@@ -1,0 +1,78 @@
+gene_symbol	source	source_group	label_type	priority_axis	is_positive	is_validation_source	notes	axis	record_role	split_reason	record_id
+EGFR	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable anchor	translational	L	development positive-label record	luad_actionable_anchor|translational|EGFR
+ALK	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable fusion anchor	translational	L	development positive-label record	luad_actionable_anchor|translational|ALK
+ROS1	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable fusion anchor	translational	L	development positive-label record	luad_actionable_anchor|translational|ROS1
+RET	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable fusion anchor	translational	L	development positive-label record	luad_actionable_anchor|translational|RET
+MET	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD exon14/amplification anchor	translational	L	development positive-label record	luad_actionable_anchor|translational|MET
+ERBB2	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD HER2 anchor	translational	V	held-out benchmark record	luad_actionable_anchor|translational|ERBB2
+BRAF	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA/NCCN-established LUAD actionable anchor	translational	L	development positive-label record	luad_actionable_anchor|translational|BRAF
+KRAS	luad_actionable_anchor	drug	known_target	clinical	1	1	FDA-approved KRAS G12C LUAD anchor	translational	V	held-out benchmark record	luad_actionable_anchor|translational|KRAS
+NTRK1	luad_actionable_anchor	drug	known_target	clinical	1	1	tumour-agnostic actionable fusion anchor	translational	V	held-out benchmark record	luad_actionable_anchor|translational|NTRK1
+NTRK2	luad_actionable_anchor	drug	known_target	clinical	1	1	tumour-agnostic actionable fusion anchor	translational	V	held-out benchmark record	luad_actionable_anchor|translational|NTRK2
+NTRK3	luad_actionable_anchor	drug	known_target	clinical	1	1	tumour-agnostic actionable fusion anchor	translational	V	held-out benchmark record	luad_actionable_anchor|translational|NTRK3
+NRG1	expanded_literature:LUAD_translational	literature	expanded_literature	clinical	1	1	LUAD benchmark expansion; NRG1 fusion clinical selection target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:LUAD_translational|translational|NRG1
+ERBB2	expanded_literature:LUAD_translational	literature	expanded_literature	clinical	1	1	LUAD benchmark expansion; zenocutuzumab HER2 target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:LUAD_translational|translational|ERBB2
+ERBB3	expanded_literature:LUAD_translational	literature	expanded_literature	clinical	1	1	LUAD benchmark expansion; zenocutuzumab HER3 target from PMID39908431	translational	V	held-out benchmark record	expanded_literature:LUAD_translational|translational|ERBB3
+PIK3CA	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|PIK3CA
+BRAF	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|BRAF
+EGFR	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|EGFR
+STK11	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|STK11
+KEAP1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|KEAP1
+ARID1A	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|ARID1A
+SMARCA4	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|SMARCA4
+RIT1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|RIT1
+KRAS	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|KRAS
+NRAS	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|NRAS
+ALK	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|ALK
+NF1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|NF1
+U2AF1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|U2AF1
+TP53	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|TP53
+NTRK1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|NTRK1
+ROS1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|ROS1
+MET	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|MET
+RET	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|RET
+MAP2K1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|MAP2K1
+RBM10	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|RBM10
+ERBB2	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	L	development positive-label record	tcga_luad_nature_2014|functional|ERBB2
+NRG1	tcga_luad_nature_2014	literature	curated_literature	discovery	1	1	PMID:25079552	functional	V	held-out benchmark record	tcga_luad_nature_2014|functional|NRG1
+PUF60	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|PUF60
+SNRPF	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|SNRPF
+SNRPD3	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|SNRPD3
+RPL15	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|RPL15
+RPL4	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|RPL4
+RPS3A	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|RPS3A
+RRM1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|RRM1
+PSMB3	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|PSMB3
+PRIM2	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|PRIM2
+DNA2	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|DNA2
+RAN	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|RAN
+RPSA	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|RPSA
+PCNA	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|PCNA
+LRR1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|LRR1
+SARS1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|SARS1
+CDC27	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|CDC27
+PSMA3	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|PSMA3
+RPL23	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|RPL23
+RPL21	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|RPL21
+RPS19	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|RPS19
+HSPE1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|HSPE1
+SNRPA1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|SNRPA1
+DCAF1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|DCAF1
+RPL34	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|RPL34
+SMU1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|SMU1
+RPL12	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|RPL12
+PHF5A	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	V	held-out benchmark record	depmap_luad_high_dependency|functional|PHF5A
+RPL17	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|RPL17
+PRELID1	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|PRELID1
+DCAF13	depmap_luad_high_dependency	dependency	known_dependency	discovery	1	1	top local DepMap LUAD dependency score	functional	L	development positive-label record	depmap_luad_high_dependency|functional|DCAF13
+ASF1A	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; in vivo CRISPR immunotherapy target from PMID31744829	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|ASF1A
+RIC8A	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; EGFR TKI CRISPR modifier from PMID31741433	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|RIC8A
+CSNK1A1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; druggable vulnerability from PMID34298691	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|CSNK1A1
+KDM2A	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; druggable vulnerability from PMID34298691	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|KDM2A
+LTB4R2	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; druggable vulnerability from PMID34298691	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|LTB4R2
+ATM	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; ATM/MEK synthetic-lethal context from PMID27922010	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|ATM
+MAP2K1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; MEK1 target in ATM-loss synthetic lethality from PMID27922010	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|MAP2K1
+MAP2K2	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; MEK2 target in ATM-loss synthetic lethality from PMID27922010	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|MAP2K2
+RB1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; RB1/PARP inhibitor response context from PMID37937640	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|RB1
+PARP1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; PARP inhibitor target from PMID37937640	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|PARP1
+BACE1	expanded_literature:LUAD_functional	literature	expanded_literature	discovery	1	1	LUAD benchmark expansion; in vivo CRISPRa therapeutic vulnerability from PMID40601773	functional	V	held-out benchmark record	expanded_literature:LUAD_functional|functional|BACE1

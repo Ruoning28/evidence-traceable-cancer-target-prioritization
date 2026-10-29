@@ -1,8 +1,7 @@
-﻿file_or_resource	description	source_type	availability	repository_or_supplement	notes
-Processed evidence matrices	Cancer-specific target-by-evidence matrices used for prioritization	Processed data	Not stored in GitHub; provided as manuscript supplementary files or associated public repository	Additional file / public repository	Excluded from GitHub to avoid storing large analysis matrices.
-Label and benchmark manifests	Positive-label definitions and held-out benchmark records	Processed manifest	Provided with manuscript supplementary files or associated public repository	Additional file / public repository	Small examples may appear in examples/manifests.
-Source-trace files	Per-record source role and traceability files	Processed manifest	Provided with manuscript supplementary files or associated public repository	Additional file / public repository	Used to audit feature/label/validation separation.
-Validation summaries	Permutation, held-out, OOF and source-out validation tables	Analysis output	Provided with manuscript supplementary files or associated public repository	Additional file / public repository	Excluded from GitHub except small figure source summaries.
-Figure source data	Small source tables used for paper figures	Figure source data	Included when small and non-sensitive	figures/source	Final full-resolution figure files are submission artifacts, not primary repository data.
-Raw public databases	Public data sources cited in manuscript	Raw public source	Available from original providers	Original public databases	Download scripts are included where available.
-
+file_or_resource	availability	location	notes
+Frozen model inputs, configurations, results, review inputs and metadata	Additional file 2	additional_file_2/frozen_inputs, review_inputs, historical_tables, studies, metadata, revision_checks	Extract Additional files 2 and 4 into the same parent directory; preserve internal paths.
+PDAC and LUAD source-evidence matrices	Additional file 4	additional_file_2/frozen_inputs/{PDAC,LUAD}/source_target_evidence_matrix.tsv	The archive root intentionally remains additional_file_2/ so both data archives restore one directory.
+Combined packaged input checksums	Additional file 2; exact manifest copied in this repository	additional_file_2/sha256.json; supplementary_manifest/analysis_inputs_sha256.json	179 SHA-256 entries cover the combined data directory, including the two matrices in Additional file 4.
+Analysis and figure reproduction code and environment	Additional file 3; exact matching repository tree and ZIP	additional_file_3/; releases/Additional_file_3.zip	80 distributed files; 79 internal SHA-256 entries excluding the manifest itself.
+Supplementary methods and results	Additional file 1	Supplementary Methods and Results S1–S19	No renumbering caused by splitting the data archives.
+Public upstream resources	Original providers; acquisition and retained identities documented in Additional file 2	source_metadata/resource_acquisition_register.tsv; source_metadata/resource_provenance_inventory.tsv	Packaged frozen inputs are supplied; historical upstream raw resources are not asserted to be bundled or fully re-downloaded.

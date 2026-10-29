@@ -4,15 +4,15 @@ Baseline: `ab73688532fb96256041d7cd44360d1f8b2f1429` (original `main`). Release:
 
 ## Current entry point
 
-Use [`additional_file_3/README.md`](../additional_file_3/README.md) for the revised manuscript. Its 79 files are byte-for-byte identical to [`releases/Additional_file_3.zip`](../releases/Additional_file_3.zip). The archive SHA-256 is `a3383eb762b763a0372cf43bd6a390a928d13f101d3de7c44b8d1b5e69d2af98`. `additional_file_3/sha256.json` covers 78 files and excludes itself.
+Use [`additional_file_3/README.md`](../additional_file_3/README.md) for the revised manuscript. Its 80 files are byte-for-byte identical to [`releases/Additional_file_3.zip`](../releases/Additional_file_3.zip). The archive SHA-256 is `f12e8ed927cecab2003ca7c80731a576a668e49c30f1c1a7f42c66a27b35e341`. `additional_file_3/sha256.json` covers 79 files and excludes itself.
 
-The original `src/`, `scripts/`, `config/`, supplementary manifests and preview figures remain available as the baseline. Their existence does not identify them as the current revised analysis or current figure previews; use the released entry points and packaged frozen inputs rather than mixing layouts.
+The original `src/`, `scripts/` and `config/` remain as the baseline. Current supplementary manifests and previews now match the final submission; original versions remain in Git history. Their existence does not identify them as the current revised analysis or current figure previews; use the released entry points and packaged frozen inputs rather than mixing layouts.
 
 ## Substantive differences
 
 | Area | Original repository | Revised package |
 |---|---|---|
-| Input/output handling | Module directories and large inputs outside the repository | Explicit `--data` and `--output`; frozen Additional file 2 input layout |
+| Input/output handling | Module directories and large inputs outside the repository | Explicit `--data` and `--output`; frozen Additional files 2 and 4, extracted together into one additional_file_2 layout |
 | Solver configuration | No explicit `model.tol`/initial weight-normalization fields | `tol=1e-6` and `normalize_class_weights_initially=true`; same-sample convergence retries through `fast_model` |
 | Sensitivity repeats | `sensitivity.n_repeats=10` | `sensitivity.n_repeats=30` in both cancer configurations |
 | Background strata | Dependency/expression fields use the original PDAC-oriented rules | Cancer-context dependency/expression columns; ties kept together; unavailable/constant expression handled explicitly |
@@ -29,10 +29,14 @@ The final packaging/environment repair itself left the earlier revised analysis 
 
 ## Mapping and verification
 
-[`additional_file_3_vs_original.csv`](additional_file_3_vs_original.csv) maps each released file to a direct same-named/relocated baseline file where one exists. Nine have a direct mapped counterpart with different bytes; 70 have no direct file counterpart in the original layout. These counts are not counts of changed algorithms and do not imply that original files were removed.
+[`additional_file_3_vs_original.csv`](additional_file_3_vs_original.csv) maps each released file to a direct same-named/relocated baseline file where one exists. Nine have direct mapped counterparts: two are byte-identical and seven differ; 71 have no direct file counterpart in the original layout. Baseline hashes now use exact committed Git blobs (LF), not a CRLF-converted Windows checkout. Earlier all-nine-different counts included newline-only differences. These counts are not counts of changed algorithms and do not imply that original files were removed.
 
 Before this submission, the Windows plotting environment was recreated from its 72-package exact Conda closure and the SHA-256-locked Figure 2 wheel. All five Figures 2–6 matched the referenced manuscript at 300 DPI under the same PDF transparency-group conditions, with zero differing pixels. Each single-figure command and the wrong-runtime preflight were checked. Reference hashes and the recorded scope are in [`additional_file_3/verification/release_validation.json`](../additional_file_3/verification/release_validation.json).
 
-The Git submission separately checks that the archive and the extracted release tree match all 79 source files and that Git stores their original bytes. `.gitattributes` disables text normalization only for this audited release tree. Runtime environments, cached dependencies, fonts, manuscript files and Additional file 2 inputs are not added to Git. Figure 1 remains a static manuscript illustration.
+The Git submission separately checks that the archive and the extracted release tree match all 80 source files and that Git stores their original bytes. `.gitattributes` preserves the audited release tree and exact copied figure/table/data-manifest bytes against newline conversion. Runtime environments, cached dependencies, fonts, manuscript files and Additional file 2 inputs are not added to Git. Figure 1 remains a static manuscript illustration.
 
 No new complete model ensemble, OOF, refitted permutation suite or raw-data reconstruction was run for the Git submission. Existing model-consistency files are retained supplied records, not new training evidence. This change does not modify the original branch's scientific files in place.
+
+## Final submission synchronization (29 October 2026)
+
+The final code tree has 80 files and 79 internal checksum entries. The 31 Python files remain byte-identical to the earlier PR release; five documents/manifests were updated and `verification/submission_validation.json` was added. Data come from Additional files 2 and 4 extracted together. Current previews, figure sources and main tables now match the final manuscript; attachment/source manifests record the actual supplied file identities. Historical validation records are retained without rewriting their original manuscript fingerprints.
